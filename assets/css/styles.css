@@ -54,6 +54,11 @@ header a {
     z-index: 99;
     background-color: #3C5E31;
     box-shadow: 0 0.25rem 0.25rem black;
+
+    /* Animation */
+    animation-name: dropdown-animate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.2s;
 }
 
 .dropdown-activator {
@@ -93,4 +98,12 @@ footer {
 
 footer i {
     color: white;
+}
+
+@keyframes dropdown-animate {
+    0% {width: 0rem;}
+    25% {width: 2.5rem;}
+    50% {width: 5rem;}
+    75% {width: 7.5rem;}
+    100% {width: 10rem;}
 }
