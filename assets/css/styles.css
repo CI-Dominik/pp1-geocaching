@@ -28,8 +28,12 @@ header {
     padding: 1rem;
     max-height: 2.5rem;
     width: 100%;
-    background-color: red;
+    background-color: #3C5E31;
     justify-content: space-between;
+}
+
+header a {
+    color: white;
 }
 
 /* DROPDOWN STYLING */
@@ -47,7 +51,7 @@ header {
     list-style-type: none;
     z-index: 99;
 
-    background-color: green;
+    background-color: #3C5E31;
 }
 
 .dropdown-activator {
