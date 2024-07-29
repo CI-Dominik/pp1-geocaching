@@ -1,4 +1,13 @@
+/* GENERIC STYLING */
+
 body {
     margin: 0;
     padding: 0;
+}
+
+/* NAVIGATION STYLING */
+
+nav {
+    display: flex;
+    flex-flow: row nowrap;
 }
