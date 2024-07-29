@@ -5,6 +5,7 @@ body {
     padding: 0;
     display: flex;
     flex-flow: column nowrap;
+    min-height: 100vh;
 }
 
 /* Remove Link Underline */
@@ -21,6 +22,8 @@ header {
     background-color: red;
     justify-content: space-between;
 }
+
+/* DROPDOWN STYLING */
 
 .dropdown {
     display: none;
@@ -42,6 +45,13 @@ header {
     display: block;
 }
 
+/* MAIN AREA STYLING */
+
+main {
+    background-color: yellow;
+    flex: 1 0 auto;
+}
+
 /* FOOTER STYLING */
 
 footer {
@@ -49,4 +59,5 @@ footer {
     width: 100%;
     justify-self: flex-end;
     justify-content: space-around;
+    background-color: blue;
 }
