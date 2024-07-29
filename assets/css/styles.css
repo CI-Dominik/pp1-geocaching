@@ -27,9 +27,11 @@ header {
     align-items: center;
     padding: 1rem;
     max-height: 2.5rem;
+    z-index: 98;
     width: 100%;
     background-color: #3C5E31;
     justify-content: space-between;
+    box-shadow: 0 0.25rem 0.25rem black;
 }
 
 header a {
@@ -50,8 +52,8 @@ header a {
     width: 10rem;
     list-style-type: none;
     z-index: 99;
-
     background-color: #3C5E31;
+    box-shadow: 0 0.25rem 0.25rem black;
 }
 
 .dropdown-activator {
