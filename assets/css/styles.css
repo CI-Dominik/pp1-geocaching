@@ -69,6 +69,11 @@ header a {
     display: flex;
 }
 
+/* Underline for active link */
+.nav-active {
+    text-decoration: underline;
+}
+
 /* MAIN AREA STYLING */
 
 main {
