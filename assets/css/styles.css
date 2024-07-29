@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 }
 
 /* Remove Link Underline */
@@ -22,15 +22,13 @@ header {
     justify-content: space-between;
 }
 
-
-
-
 .dropdown {
     display: none;
     position: fixed;
     left: 0;
     width: 100%;
     list-style-type: none;
+    z-index: 99;
 
     background-color: green;
 }
@@ -42,4 +40,13 @@ header {
 
 .dropdown-activator:focus-within .dropdown {
     display: block;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-self: flex-end;
+    justify-content: space-around;
 }
