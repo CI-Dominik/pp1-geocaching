@@ -70,7 +70,7 @@ header a {
 /* MAIN AREA STYLING */
 
 main {
-    background-color: yellow;
+    background-color: #3BDE04;
     flex: 1 0 auto;
 }
 
@@ -81,8 +81,7 @@ footer {
     padding: 0.6rem;
     align-items: center;
     justify-content: space-around;
-
-    background-color: blue;
+    background-color: #3C5E31;
 }
 
 footer i {
