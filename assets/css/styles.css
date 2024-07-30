@@ -100,10 +100,33 @@ footer i {
     color: white;
 }
 
+/* Dropdown Animation */
 @keyframes dropdown-animate {
     0% {width: 0rem;}
     25% {width: 2.5rem;}
     50% {width: 5rem;}
     75% {width: 7.5rem;}
     100% {width: 10rem;}
+}
+
+/* MEDIA QUERIES STARTING FROM 48 REM */
+
+@media (width >= 48rem) {
+
+    .dropdown {
+        display: flex;
+        justify-content: right;
+        flex-flow: row nowrap;
+        width: 60%;
+        animation: none;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: none;
+    }
+
+    .dropdown-activator > a {
+        display: none;
+        
+    }
+
 }
