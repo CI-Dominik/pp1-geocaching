@@ -204,4 +204,8 @@ footer i {
         order: 0;
     }
 
+    #hero-image {
+        height: clamp(60vh, 70vh, 80vh);
+    }
+
 }
