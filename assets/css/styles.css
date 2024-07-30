@@ -199,10 +199,12 @@ footer i {
 
     #hero {
         flex-flow: row nowrap;
+        font-size: clamp(0.5rem, 1rem, 3rem);
     }
 
     #hero-info {
         order: 0;
+        width: 40vw;
     }
 
     #hero-image {
