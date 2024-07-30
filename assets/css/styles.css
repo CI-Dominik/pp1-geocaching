@@ -185,6 +185,7 @@ footer i {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
     color: white;
     padding: 1rem;
@@ -209,6 +210,7 @@ footer i {
 
 #information-container h2 {
     margin: 1rem 0 0.5rem 0;
+    font-size: 200%;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
