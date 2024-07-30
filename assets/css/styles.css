@@ -124,6 +124,7 @@ footer i {
 #hero-info {
     display: flex;
     padding: 1rem;
+    justify-content: center;
     flex-flow: column nowrap;
     order: 2;
 }
@@ -157,6 +158,8 @@ footer i {
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
 
 @media (width >= 48rem) {
+
+    /* DROPDOWN ADJUSTMENT */
 
     .dropdown {
         display: flex;
@@ -193,5 +196,16 @@ footer i {
         background-color: white;
         color: #89307C;
     }
+
+    /* HERO ADJUSTMENT */
+
+    #hero {
+        flex-flow: row nowrap;
+    }
+
+    #hero-info {
+        order: 0;
+    }
+    
 
 }
