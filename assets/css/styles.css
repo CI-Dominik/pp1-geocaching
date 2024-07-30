@@ -25,7 +25,7 @@ header {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
     height: 2.5rem;
     z-index: 98;
     width: 100%;
@@ -190,6 +190,7 @@ footer i {
         justify-content: right;
         flex-flow: row nowrap;
         width: 60%;
+        height: 3rem;
         animation: none;
         top: 0;
         background-color: rgba(0, 0, 0, 0);
@@ -210,8 +211,8 @@ footer i {
 
     .nav-button {
         display: flex;
+        flex: 1 0 auto;
         justify-content: center;
-        flex-shrink: 0;
         background-color: #89307C;
         border-radius: 20px;
     }
