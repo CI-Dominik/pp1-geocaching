@@ -108,9 +108,10 @@ main {
     padding: 1rem;
 }
 
-#benefits-container h3 {
+.benefits-item > h3 {
     font-size: 150%;
     line-height: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* FOOTER STYLING */
