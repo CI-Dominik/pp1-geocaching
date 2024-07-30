@@ -109,7 +109,7 @@ footer i {
     100% {width: 10rem;}
 }
 
-/* MEDIA QUERIES STARTING FROM 48 REM */
+/* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
 
 @media (width >= 48rem) {
 
@@ -127,6 +127,20 @@ footer i {
     .dropdown-activator > a {
         display: none;
         
+    }
+
+    .dropdown a:hover {
+        text-decoration: underline;
+    }
+
+    .nav-button {
+        background-color: #89307C;
+        border-radius: 20px;
+    }
+
+    .nav-button:hover {
+        background-color: white;
+        color: #89307C
     }
 
 }
