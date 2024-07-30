@@ -92,18 +92,24 @@ main {
     background-color: #3C5E31;
 }
 
+#benefits > h2 {
+    font-size: 200%;
+    padding-top: 1.5rem;
+}
+
 #benefits-container {
     display: flex;
     flex-flow: row wrap;
 }
 
 .benefits-item {
-    flex: 1 0 12.5rem;
+    flex: 1 0 18.75rem;
     justify-content: center;
     padding: 1rem;
 }
 
 #benefits-container h3 {
+    font-size: 150%;
     line-height: 2rem;
 }
 
