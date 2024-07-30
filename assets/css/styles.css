@@ -87,7 +87,6 @@ main {
 #benefits {
     color: white;
     text-align: center;
-    flex-flow: row wrap;
     width: 100%;
     background-color: #3C5E31;
 }
@@ -204,10 +203,11 @@ footer i {
 
 #information-container {
     text-align: center;
-    width: clamp(50vw, 60vw, 70vw);
+    width: clamp(80vw, 90vw, 100vw);
 }
 
 #information-container h2 {
+    text-align: center;
     margin: 1rem 0 0.5rem 0;
 }
 
