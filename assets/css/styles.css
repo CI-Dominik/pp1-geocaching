@@ -93,7 +93,6 @@ main {
 }
 
 #benefits > h2 {
-    font-size: 200%;
     padding-top: 1.5rem;
 }
 
@@ -103,7 +102,7 @@ main {
 }
 
 .benefits-item {
-    flex: 1 0 18.75rem;
+    flex: 1 0 12rem;
     justify-content: center;
     padding: 1rem;
 }
@@ -210,7 +209,6 @@ footer i {
 
 #information-container h2 {
     margin: 1rem 0 0.5rem 0;
-    font-size: 200%;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
