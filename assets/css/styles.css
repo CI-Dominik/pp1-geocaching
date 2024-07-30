@@ -147,12 +147,9 @@ footer i {
 }
 
 #hero-image {
+    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    height: clamp(40vh, 50vh, 60vh);
     width: 100%;
-}
-
-#hero-image > img {
-    width: 100%;
-    height: 100%;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
@@ -206,6 +203,5 @@ footer i {
     #hero-info {
         order: 0;
     }
-    
 
 }
