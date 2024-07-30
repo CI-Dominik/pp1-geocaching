@@ -27,7 +27,7 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     padding: 1rem;
-    max-height: 2.5rem;
+    height: 2.5rem;
     z-index: 98;
     width: 100%;
     background-color: #3C5E31;
@@ -60,10 +60,6 @@ header a {
     animation-name: dropdown-animate;
     animation-timing-function: ease-in-out;
     animation-duration: 0.2s;
-}
-
-.dropdown-activator {
-    padding: 5px;
 }
 
 .dropdown-activator a {
