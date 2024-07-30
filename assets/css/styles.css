@@ -184,6 +184,7 @@ footer i {
 #information {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     width: 100%;
     color: white;
     padding: 1rem;
@@ -191,6 +192,7 @@ footer i {
 }
 
 #information-image-container {
+    padding-left: 5rem;
     width: 90vw;
     height: 90vw;
     border-radius: 50%;
@@ -201,7 +203,12 @@ footer i {
 }
 
 #information-container {
-    width: 100%;
+    text-align: center;
+    width: clamp(50vw, 60vw, 70vw);
+}
+
+#information-container h2 {
+    margin: 1rem 0 0.5rem 0;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
@@ -261,6 +268,12 @@ footer i {
 
     #hero-image {
         height: clamp(60vh, 70vh, 80vh);
+    }
+
+    /* INFORMATION ADJUSTMENT */
+
+    #information-container {
+        padding: 2rem;
     }
 
 }
