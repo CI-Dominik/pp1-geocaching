@@ -125,7 +125,7 @@ footer i {
     }
 
     .dropdown-item {
-        max-width: 10rem;
+        max-width: 9rem;
     }
 
     .dropdown-activator > a {
@@ -137,6 +137,9 @@ footer i {
     }
 
     .nav-button {
+        display: flex;
+        justify-content: center;
+        flex-shrink: 0;
         background-color: #89307C;
         border-radius: 20px;
     }
