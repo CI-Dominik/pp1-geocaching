@@ -82,7 +82,8 @@ header a {
 /* MAIN AREA STYLING */
 
 main {
-    background-color: #3BDE04;
+    flex-flow: column nowrap;
+    background-color: black;
     flex: 1 0 auto;
 }
 
@@ -107,6 +108,28 @@ footer i {
     50% {width: 5rem;}
     75% {width: 7.5rem;}
     100% {width: 10rem;}
+}
+
+/* HERO AREA STYLING */
+
+#hero {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    background-color: #3BDE04;
+}
+
+#hero-info {
+    order: 2;
+}
+
+#hero-image {
+    width: 100%;
+}
+
+#hero-image > img {
+    width: 100%;
+    height: 100%;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
