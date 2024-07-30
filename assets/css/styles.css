@@ -67,6 +67,10 @@ header a {
     height: 100%;
 }
 
+.dropdown-activator {
+    padding-top: 0.4rem;
+}
+
 .dropdown-activator:focus-within .dropdown {
     display: flex;
 }
