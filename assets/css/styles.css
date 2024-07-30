@@ -179,6 +179,31 @@ footer i {
     width: 100%;
 }
 
+/* INFORMATION STYLNIG */
+
+#information {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    background-color: #3bde049c;
+}
+
+#information-image-container {
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    max-width: 18.75rem;
+    max-height: 18.75rem;
+    justify-content: center;
+    background: url(../images/geocaching-information-img.jpg) no-repeat center center/cover;
+}
+
+#information-container {
+    width: 100%;
+}
+
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
 
 @media (width >= 48rem) {
