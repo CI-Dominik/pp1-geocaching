@@ -45,7 +45,7 @@ header a {
     flex-flow: column nowrap;
     line-height: 1.5rem;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 2.5rem;
     right: 0;
     padding: 0.75rem;
@@ -116,11 +116,23 @@ footer i {
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
+    padding-bottom: 1rem;
     background-color: #3BDE04;
 }
 
 #hero-info {
     order: 2;
+    text-align: center;
+}
+
+#hero-info > a {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    color: white;
+    max-width: 10rem;
+    background-color: #89307C;
+    border-radius: 20px;
 }
 
 #hero-image {
