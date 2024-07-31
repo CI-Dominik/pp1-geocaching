@@ -44,7 +44,7 @@ header a {
 
 #desktop-nav {
     display: none;
-    width: 55vw;
+    width: clamp(30rem, 40rem, 50rem);
     justify-content: space-between;
     align-items: center;
 }
