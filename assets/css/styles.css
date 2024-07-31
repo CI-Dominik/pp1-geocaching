@@ -206,6 +206,7 @@ footer i {
 }
 
 #information-image-container {
+    display: flex;
     padding-left: 5rem;
     width: 90vw;
     height: 90vw;
@@ -217,6 +218,10 @@ footer i {
 }
 
 #information-container {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0 25rem;
+    max-width: 50vw;
     text-align: center;
     width: clamp(80vw, 90vw, 100vw);
 }
