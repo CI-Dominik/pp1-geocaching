@@ -134,15 +134,12 @@ main {
 }
 
 #hero-info > a {
-    display: flex;
     align-self: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 2rem;
-    width: 10rem;
     background-color: #89307C;
+    padding: 0.3rem 1.5rem;
     border-radius: 20px;
+    color: white;
+    max-width: 20rem;
 }
 
 #hero-info > a:hover {
