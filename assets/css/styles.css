@@ -38,6 +38,12 @@ header a {
     color: white;
 }
 
+/* Dropdown Menu Icon */
+header i {
+    color: white;
+    font-size: 1.5rem;
+}
+
 /* NAVIGATION STYLING */
 
 /* DESKTOP NAVIGATION */
@@ -68,25 +74,29 @@ header a {
     text-decoration: underline;
 }
 
-
-
-
-
 /* MOBILE NAVIGATION */
 
+#mobile-nav {
+    display: none;
+    flex-flow: column nowrap;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C5E31;
+    padding: 1rem;
 
+}
 
+#mobile-nav a {
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
+#mobile-nav a:hover {
+    color: #3bde049c;
+}
 
 /* MAIN AREA STYLING */
 
@@ -226,15 +236,13 @@ footer i {
         display: flex;
     }
 
+    #mobile-nav {
+        display: none;
+    }
 
-
-
-
-
-
-
-
-    
+    #dropdown-icon {
+        display: none;
+    }
 
     /* HERO ADJUSTMENT */
 

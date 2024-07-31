@@ -49,12 +49,19 @@
 
         </nav>
 
+        <!-- Dropdown Menu Icon -->
+
+        <i class="fa-solid fa-bars" id="dropdown-icon" onclick="dropdownMenu()"></i>
+
     </header>
 
     <!-- Mobile Navigation Menu -->
 
     <nav id="mobile-nav">
-        
+        <a href="index.html" class="nav-active">Home</a>
+        <a href="adventures.html">Adventures</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact</a>
     </nav>
 
     <!-- Header End -->
@@ -139,9 +146,9 @@
 
     <script>
         function dropdownMenu() {
-            let dropdown = document.getElementById("dropdown");
+            let dropdown = document.getElementById("mobile-nav");
             if (dropdown.style.display == "none") {
-            dropdown.style.display = "block";
+            dropdown.style.display = "flex";
             } 
             else {
             dropdown.style.display = "none";
