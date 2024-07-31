@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-/* NAVIGATION STYLING */
+/* HEADER STYLING */
 
 header {
     font-size: 1.2rem;
@@ -38,41 +38,55 @@ header a {
     color: white;
 }
 
-/* DROPDOWN STYLING */
+/* NAVIGATION STYLING */
 
-.dropdown {
+/* DESKTOP NAVIGATION */
+
+#desktop-nav {
     display: none;
-    flex-flow: column nowrap;
-    line-height: 1.5rem;
-    text-align: center;
-    position: absolute;
-    top: 3rem;
-    right: 0;
-    padding: 0.75rem;
-    width: 10rem;
-    list-style-type: none;
-    z-index: 99;
-    background-color: #3C5E31;
-    box-shadow: 0 0.25rem 0.25rem black;
-
-    /* Animation */
-    animation-name: dropdown-animate;
-    animation-timing-function: ease-in-out;
-    animation-duration: 0.2s;
+    width: 55vw;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.dropdown-activator a {
-    width: 100%;
-    height: 100%;
-}
-.dropdown-activator:focus-within .dropdown {
-    display: flex;
+.nav-adventure {
+    background-color: #89307C;
+    padding: 0.3rem 1.5rem;
+    border-radius: 20px;
 }
 
-/* Underline for active link */
+.nav-link:hover {
+    color: #3bde049c;
+}
+
+.nav-adventure:hover {
+    background-color: white;
+    color: #89307C;
+}
+
 .nav-active {
     text-decoration: underline;
 }
+
+
+
+
+
+/* MOBILE NAVIGATION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN AREA STYLING */
 
@@ -124,15 +138,6 @@ footer {
 
 footer i {
     color: white;
-}
-
-/* Dropdown Animation */
-@keyframes dropdown-animate {
-    0% {width: 0rem;}
-    25% {width: 2.5rem;}
-    50% {width: 5rem;}
-    75% {width: 7.5rem;}
-    100% {width: 10rem;}
 }
 
 /* HERO AREA STYLING */
@@ -217,42 +222,19 @@ footer i {
 
     /* DROPDOWN ADJUSTMENT */
 
-    .dropdown {
+    #desktop-nav {
         display: flex;
-        justify-content: right;
-        flex-flow: row nowrap;
-        width: 60%;
-        height: 3rem;
-        animation: none;
-        top: 0;
-        background-color: rgba(0, 0, 0, 0);
-        box-shadow: none;
     }
 
-    .dropdown-item {
-        max-width: 9rem;
-    }
 
-    .dropdown-activator > a {
-        display: none;
-    }
 
-    .dropdown a:hover {
-        text-decoration: underline;
-    }
 
-    .nav-button {
-        display: flex;
-        flex: 1 0 auto;
-        justify-content: center;
-        background-color: #89307C;
-        border-radius: 20px;
-    }
 
-    .nav-button:hover {
-        background-color: white;
-        color: #89307C;
-    }
+
+
+
+
+    
 
     /* HERO ADJUSTMENT */
 

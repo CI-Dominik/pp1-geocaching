@@ -38,25 +38,24 @@
 
         <a href="index.html"> Geocaching Adventures</a>
 
-        <nav>
+        <!-- Desktop Navigation Menu -->
 
-            <div class="dropdown-activator">
+        <nav id="desktop-nav">
 
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
-
-                <div class="dropdown">
-                        <a href="index.html" class="dropdown-item nav-active">Home</a>
-                        <a href="about.html" class="dropdown-item">About me</a>
-                        <a href="contact.html" class="dropdown-item">Contact</a>
-                        <a href="adventures.html" class="dropdown-item nav-button">Adventures</a>
-        
-                </div>
-
-            </div>
+            <a href="index.html" class="nav-link nav-active">Home</a>
+            <a href="about.html" class="nav-link">About me</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="adventures.html" class="nav-adventure">Adventures</a>
 
         </nav>
 
     </header>
+
+    <!-- Mobile Navigation Menu -->
+
+    <nav id="mobile-nav">
+        
+    </nav>
 
     <!-- Header End -->
 
@@ -135,6 +134,20 @@
     <!-- Fontawesome Import -->
 
     <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous"></script>
+
+    <!-- Dropdown Menu Script -->
+
+    <script>
+        function dropdownMenu() {
+            let dropdown = document.getElementById("dropdown");
+            if (dropdown.style.display == "none") {
+            dropdown.style.display = "block";
+            } 
+            else {
+            dropdown.style.display = "none";
+            }
+        }
+    </script>
 
 </body>
 
