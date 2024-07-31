@@ -229,9 +229,14 @@ main {
 #wrapper {
     display: flex;
     flex-flow: column wrap;
-    height: 100%;
     flex: 1 0 auto;
     background-color: #3bde049c;
+}
+
+#adventure1 {
+    margin: 1rem;
+
+    background-color: red;
 }
 
 /* FOOTER STYLING */
