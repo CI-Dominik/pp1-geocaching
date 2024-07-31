@@ -36,56 +36,65 @@
 
     <header>
 
-        <a href="index.html"><i class="fa-solid fa-globe"></i> Geocaching Adventures</a>
+        <a href="index.html"> Geocaching Adventures</a>
 
-        <nav>
+        <!-- Desktop Navigation Menu -->
 
-            <div class="dropdown-activator">
+        <nav id="desktop-nav">
 
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
-
-                <ul class="dropdown">
-                        <a href="index.html" class="dropdown-item nav-active">Home</a>
-                        <a href="about.html" class="dropdown-item">About me</a>
-                        <a href="contact.html" class="dropdown-item">Contact</a>
-                        <a href="adventures.html" class="dropdown-item nav-button">Adventures</a>
-        
-                </ul>
-
-            </div>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About me</a>
+            <a href="contact.html" class="nav-link active-link">Contact</a>
+            <a href="adventures.html" class="nav-adventure">Adventures</a>
 
         </nav>
 
+        <!-- Dropdown Menu Icon -->
+
+        <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+
     </header>
+
+    <!-- Mobile Navigation Menu -->
+
+    <nav id="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="adventures.html">Adventures</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html" class="active-link">Contact</a>
+    </nav>
 
     <!-- Header End -->
 
     <!-- Main Area Start -->
 
     <main>
-        
+
+
+
     </main>
 
     <!-- Main Area End -->
 
-
     <!-- Footer Start -->
 
     <footer>
-        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Link to LinkedIn (Opens in new tab)"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Link to Facebook (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Link to X (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Link to Instagram (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Link to Pinterest (Opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
     </footer>
     
     <!-- Footer End -->
 
-
-
     <!-- Fontawesome Import -->
 
     <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript file Import -->
+
+    <script src="assets/js/scripts.js"></script>
 
 </body>
 
