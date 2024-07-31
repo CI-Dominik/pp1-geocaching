@@ -52,7 +52,7 @@ header i {
 
 #desktop-nav {
     display: none;
-    width: clamp(30rem, 40rem, 50rem);
+    width: clamp(20rem, 30rem, 40rem);
     justify-content: space-between;
     align-items: center;
 }
