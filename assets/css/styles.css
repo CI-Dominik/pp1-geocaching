@@ -109,9 +109,10 @@ header i {
 /* MAIN AREA STYLING */
 
 main {
+    display: flex;
     flex-flow: column nowrap;
     background-color: black;
-    flex: 1 0 auto;
+    flex: 1 0 100%;
 }
 
 /* HERO AREA STYLING */
@@ -221,6 +222,16 @@ main {
 #information-container h2 {
     text-align: center;
     margin: 1rem 0 0.5rem 0;
+}
+
+/* *** ADVENTURES *** */
+
+#wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    flex: 1 0 auto;
+    background-color: #3bde049c;
 }
 
 /* FOOTER STYLING */
