@@ -277,4 +277,18 @@ footer i {
         padding: 2rem;
     }
 
+    /* Mozilla Firefox adjustment */
+
+    /* Mozilla hero information adjustment */
+
+    @-moz-document url-prefix() {
+        #hero-info h1 {
+            margin-bottom: 1rem;
+        }
+
+        #hero-info a {
+            margin-top: 1rem;
+        }
+    }
+
 }
