@@ -90,6 +90,11 @@ header i {
 
 }
 
+/* Display navigation menu */
+#mobile-nav.nav-active {
+    display: flex;
+}
+
 #mobile-nav a {
     color: white;
 }

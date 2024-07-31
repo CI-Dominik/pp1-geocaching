@@ -51,13 +51,13 @@
 
         <!-- Dropdown Menu Icon -->
 
-        <i class="fa-solid fa-bars" id="dropdown-icon" onclick="dropdownMenu()"></i>
+        <i class="fa-solid fa-bars" id="dropdown-icon"></i>
 
     </header>
 
     <!-- Mobile Navigation Menu -->
 
-    <nav id="mobile-nav">
+    <nav id="mobile-nav" class="nav-active">
         <a href="index.html" class="nav-active">Home</a>
         <a href="adventures.html">Adventures</a>
         <a href="about.html">About me</a>
@@ -142,19 +142,9 @@
 
     <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous"></script>
 
-    <!-- Dropdown Menu Script -->
+    <!-- JavaScript Import -->
 
-    <script>
-        function dropdownMenu() {
-            let dropdown = document.getElementById("mobile-nav");
-            if (dropdown.style.display == "none") {
-            dropdown.style.display = "flex";
-            } 
-            else {
-            dropdown.style.display = "none";
-            }
-        }
-    </script>
+    <script src="assets/js/scripts.js"></script>
 
 </body>
 
