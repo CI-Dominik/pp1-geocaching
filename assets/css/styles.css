@@ -240,28 +240,19 @@ main {
     margin: 1rem;
     flex: 1 0 50%;
     max-width: 70rem;
-
-    background-color: red;
+    background-color: #3C5E31;
 }
 
 /* Styling of dropdown buttons */
 
 .adventure-dropdown-buttons {
-    display: flex;
     width: 100%;
-    background-color: white;
-    padding: 0.2rem;
+    background-color: #3bde049c;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: bold;
-    align-items: center;
-}
-
-.adventure-dropdown-buttons > p {
-    padding-left: 1.5rem;
-}
-
-.adventure-dropdown-buttons i {
-    font-size: 2rem;
-    padding-left: 0.5rem;
+    color: white;
 }
 
 /* Paddng of image and content area */
@@ -309,6 +300,12 @@ main {
     height: auto;
     margin: 0.2rem;
     max-width: 10rem;
+}
+
+/* Styling for shown dropdown items */
+
+.adventure-dropdown {
+    display: flex;
 }
 
 /* FOOTER STYLING */
