@@ -83,33 +83,34 @@
             </div>
 
             <!-- Form Start -->
+            <div id="form-wrapper">
+                <form action="https://formdump.codeinstitute.net" id="contact-form">
 
-            <form action="https://formdump.codeinstitute.net" id="signup-form">
+                    <!-- Heading -->
 
-                <!-- Heading -->
+                    <h2>Please tell me who you are</h2>
 
-                <h2><i class="fa-solid fa-heart-pulse"></i> Please tell me who you are</h2>
+                    <!-- Input fields -->
 
-                <!-- Input fields -->
+                    <label for="first-name">First name:</label>
+                    <input type="text" name="first-name" id="first-name" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last name:</label>
+                    <input type="text" name="last-name" id="last-name" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email address:</label>
+                    <input type="email" name="email-address" id="email-address" class="text-input" required>
+                    <br>
 
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" class="text-input" required>
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" class="text-input" required>
-                <br>
-                <label for="email-address">Email Address</label>
-                <input type="email" name="email-address" id="email-address" class="text-input" required>
-                <br>
+                    <label for="text-message">Enter your message:</label><br>
+                    <textarea id="text-message" name="text-message" rows="4" cols="50"></textarea><br>
 
-                <label for="text-message">Enter your message:</label><br>
-                <textarea id="text-message" name="text-message" rows="4" cols="50"></textarea><br>
+                    <!-- Submit button -->
 
-                <!-- Submit button -->
+                    <input type="submit" value="Submit your message" class="join-button">
 
-                <input type="submit" value="Let's Run!" class="join-button">
-
-            </form>
+                </form>
+            </div>
 
             <!-- Form End -->
 

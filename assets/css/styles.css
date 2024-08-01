@@ -310,15 +310,17 @@ main {
 
 #contact-wrapper {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
     color: white;
-    flex-flow: row wrap;
     padding: 1rem;
     height: 100%;
 }
 
 #contact-information {
     display: flex;
+    max-width: 30rem;
     flex-flow: column nowrap;
     align-items: center;
     background-color: blue;
@@ -336,6 +338,24 @@ main {
 #contact-information > h1 {
     margin: 2rem 0;
     text-transform: uppercase;
+}
+
+/* Form styling */
+
+#form-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 30rem;
+}
+
+#contact-form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#contact-form input {
+    width: 100%;
+    max-width: 100%;
 }
 
 /* FOOTER STYLING */
