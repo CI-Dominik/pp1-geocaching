@@ -269,7 +269,7 @@ main {
 /* Visuals of dropdown content */
 
 .adventure-dropdown {
-    display: flex;
+    display: none;
     justify-content: center;
     flex-flow: column wrap;
     width: 100%;
@@ -304,7 +304,7 @@ main {
 
 /* Styling for shown dropdown items */
 
-.adventure-dropdown {
+.adventure-dropdown-shown {
     display: flex;
 }
 
