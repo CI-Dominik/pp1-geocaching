@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, sans-serif;
 }
 
 body {
     display: flex;
     flex-flow: column nowrap;
-    font-family: Verdana, sans-serif;
     min-height: 100vh;
 }
 
@@ -324,6 +324,7 @@ main {
     color: white;
     padding: 1rem;
     height: 100%;
+    gap: 1rem;
 }
 
 #contact-information {
@@ -332,7 +333,6 @@ main {
     padding: 1rem;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: blue;
     text-align: center;
 }
 
@@ -352,11 +352,9 @@ main {
 /* Form styling */
 
 #form-wrapper {
-    text-align: center;
     display: flex;
-    width: 100%;
-    background-color: red;
     flex-flow: column nowrap;
+    text-align: center;
     max-width: 25rem;
     padding: 1rem;
 }
@@ -369,15 +367,36 @@ main {
 }
 
 #contact-form input {
-    width: 100%
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem;
+}
+
+#contact-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
 }
 
 #contact-form textarea {
     width: 100%;
+    padding: 0.5rem;
+}
+
+#contact-form h2 {
+    margin-bottom: 1rem;
 }
 
 #contact-form input[type="submit"] {
-    width: 50%;
+    max-width: 10rem;
+    font-size: 1.2rem;
+    background-color: #89307C;
+    color: white;
+    padding: 0;
+}
+
+#contact-form input[type="submit"]:hover {
+    background-color: white;
+    color: #89307C;
 }
 
 /* FOOTER STYLING */
