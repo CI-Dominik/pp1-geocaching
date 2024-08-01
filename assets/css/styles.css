@@ -111,7 +111,8 @@ header i {
 main {
     display: flex;
     flex-flow: column nowrap;
-    background-color: black;
+    background-color: #5b8f49;
+    height: 100%;
     flex: 1 0 100%;
 }
 
@@ -230,7 +231,6 @@ main {
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
-    background-color: #3bde049c;
 }
 
 /* Styling of individuals adventures */
@@ -304,6 +304,38 @@ main {
 
 .adventure-dropdown-shown {
     display: flex;
+}
+
+/* CONTACT STYLING */
+
+#contact-wrapper {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-flow: row wrap;
+    padding: 1rem;
+    height: 100%;
+}
+
+#contact-information {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: blue;
+    text-align: center;
+}
+
+#contact-information > img {
+    width: 100%;
+    height: auto;
+    max-width: 18.75rem;
+    max-height: 18.75rem;
+    border-radius: 50%;
+}
+
+#contact-information > h1 {
+    margin: 2rem 0;
+    text-transform: uppercase;
 }
 
 /* FOOTER STYLING */
