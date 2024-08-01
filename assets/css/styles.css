@@ -264,11 +264,21 @@ main {
 }
 
 .adventure-image-container {
+    display: flex;
+    padding: 0.5rem;
+    flex-flow: row wrap;
+    width: 100%;
     background-color: blue;
+    justify-content: center;
+}
+
+.adventure-content-container {
+    padding: 0.5rem;
 }
 
 .geo-image {
-    width: 50%;
+    flex: 1 0 calc(40% - 0.5rem);
+    width: 40%;
     height: auto;
     margin: 0.2rem;
     max-width: 10rem;
@@ -335,11 +345,12 @@ footer i {
     }
 
     .adventure-image-container {
-        max-width: 30rem;
+        max-width: 25rem;
+        flex: 1 0 calc(50% - 10px);
     }
 
     .adventure-content-container {
-        max-width: 20rem;
+        max-width: 30rem;
     }
 
     /* Mozilla Firefox adjustment */
