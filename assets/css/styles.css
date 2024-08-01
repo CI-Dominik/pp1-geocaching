@@ -240,7 +240,6 @@ main {
     margin: 1rem;
     flex: 1 0 50%;
     max-width: 70rem;
-    background-color: #3C5E31;
 }
 
 /* Styling of dropdown buttons */
@@ -249,7 +248,7 @@ main {
     width: 100%;
     background-color: #3bde049c;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
     font-weight: bold;
     color: white;
@@ -271,7 +270,9 @@ main {
 .adventure-dropdown {
     display: none;
     justify-content: center;
+    color: white;
     flex-flow: column wrap;
+    background-color: #3C5E31;
     width: 100%;
 }
 
@@ -285,13 +286,11 @@ main {
     padding: 0.5rem;
     flex-flow: row wrap;
     width: 100%;
-    background-color: blue;
     justify-content: center;
 }
 
 .adventure-content-container {
-    padding: 0.5rem;
-    background-color: yellow;
+    padding: 1rem;
 }
 
 .geo-image {
