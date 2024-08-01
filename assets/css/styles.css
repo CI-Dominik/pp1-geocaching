@@ -124,7 +124,7 @@ main {
     flex-flow: column nowrap;
     width: 100%;
     color: white;
-    background-color: #3bde049c;
+    background-color: #5b8f49;
 }
 
 #hero-info {
@@ -195,7 +195,7 @@ main {
     width: 100%;
     color: white;
     padding: 1rem;
-    background-color: #3bde049c;
+    background-color: #5b8f49;
 }
 
 #information-image-container {
