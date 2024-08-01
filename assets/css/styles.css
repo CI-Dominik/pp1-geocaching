@@ -228,15 +228,47 @@ main {
 
 #wrapper {
     display: flex;
-    flex-flow: column wrap;
-    flex: 1 0 auto;
+    align-items: center;
+    flex-flow: column nowrap;
     background-color: #3bde049c;
 }
 
-#adventure1 {
+.adventure {
+    flex-flow: column wrap;
     margin: 1rem;
+    flex: 1 0 50%;
+    max-width: 70rem;
 
     background-color: red;
+}
+
+.adventure-image {
+    padding: 0.5rem 1rem;
+}
+
+.adventure-content {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    height: fit-content;
+}
+
+.adventure-dropdown {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.geo-header-image {
+    width: 100%;
+    height: auto;
+}
+
+.geo-image {
+    width: 50%;
+    height: auto;
+    margin: 0.2rem;
+    max-width: 10rem;
+    height: auto;
 }
 
 /* FOOTER STYLING */
