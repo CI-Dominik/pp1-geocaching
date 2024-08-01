@@ -249,12 +249,12 @@ main {
 .adventure-content {
     padding: 0.5rem 1rem;
     width: 100%;
-    height: fit-content;
 }
 
 .adventure-dropdown {
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
+    flex-flow: column wrap;
     width: 100%;
 }
 
@@ -263,12 +263,15 @@ main {
     height: auto;
 }
 
+.adventure-image-container {
+    background-color: blue;
+}
+
 .geo-image {
     width: 50%;
     height: auto;
     margin: 0.2rem;
     max-width: 10rem;
-    height: auto;
 }
 
 /* FOOTER STYLING */
@@ -323,6 +326,20 @@ footer i {
 
     #information-container {
         padding: 2rem;
+    }
+
+    /* Adventure adjustment */
+
+    .adventure-dropdown {
+        flex-flow: row wrap;
+    }
+
+    .adventure-image-container {
+        max-width: 30rem;
+    }
+
+    .adventure-content-container {
+        max-width: 20rem;
     }
 
     /* Mozilla Firefox adjustment */
