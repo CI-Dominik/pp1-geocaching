@@ -294,8 +294,7 @@ main {
 }
 
 .geo-image {
-    flex: 1 0 calc(40% - 0.5rem);
-    width: 40%;
+    width: 10rem;
     height: auto;
     margin: 0.2rem;
     max-width: 10rem;
