@@ -401,12 +401,21 @@ main {
 
 /* ABOUT STYLING */
 
+#about-main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
 #about-information {
     display: flex;
     flex-flow: row wrap;
+    padding: 2rem;
+    gap: 2rem;
     color: white;
     width: 100%;
     justify-content: center;
+
+    background-color: blue;
 }
 
 #about-information img {
@@ -418,18 +427,40 @@ main {
 }
 
 #about-text {
-    display: flex;
     flex-flow: column wrap;
+    text-align: center;
     align-items: center;
     padding: 1rem;
     justify-content: center;
-    flex: 1 1 30rem;
+    max-width: 30rem;
     background-color: red;
 }
 
 #about-text h2 {
     margin-bottom: 1rem;
     text-transform: uppercase;
+}
+
+#statistics {
+    display: flex;
+    padding-top: 2rem;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: brown;
+    align-items: center;
+    gap: 4rem;
+}
+
+#statistics h2 {
+    font-size: 3rem;
+}
+
+.statistics-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 12rem;
+    background-color: yellow;
 }
 
 /* FOOTER STYLING */
