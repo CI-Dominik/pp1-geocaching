@@ -233,6 +233,8 @@ main {
     background-color: #3bde049c;
 }
 
+/* Styling of individuals adventures */
+
 .adventure {
     flex-flow: column wrap;
     margin: 1rem;
@@ -242,6 +244,28 @@ main {
     background-color: red;
 }
 
+/* Styling of dropdown buttons */
+
+.adventure-dropdown-buttons {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 0.2rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.adventure-dropdown-buttons > p {
+    padding-left: 1.5rem;
+}
+
+.adventure-dropdown-buttons i {
+    font-size: 2rem;
+    padding-left: 0.5rem;
+}
+
+/* Paddng of image and content area */
+
 .adventure-image {
     padding: 0.5rem 1rem;
 }
@@ -250,6 +274,8 @@ main {
     padding: 0.5rem 1rem;
     width: 100%;
 }
+
+/* Visuals of dropdown content */
 
 .adventure-dropdown {
     display: flex;
