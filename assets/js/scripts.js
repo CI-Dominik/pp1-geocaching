@@ -23,6 +23,8 @@ function openDropdown(dropdownMenu) {
     const clickedButton = dropdownMenu.dataset.button;
     const dropdownElements = document.querySelectorAll(".adventure-dropdown");
 
+    console.log(clickedAdventure + " " + clickedButton);
+
     for (let i = 0; i < dropdownElements.length; i++) {
         if (dropdownElements[i].dataset.button == clickedButton && dropdownElements[i].dataset.adventure == clickedAdventure) {
             dropdownElements[i].classList.toggle("adventure-dropdown-shown");
