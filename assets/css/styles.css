@@ -308,6 +308,14 @@ main {
 
 /* CONTACT STYLING */
 
+/* Contact main area */
+
+#contact-main {
+    justify-content: center;
+}
+
+/* Information section styling */
+
 #contact-wrapper {
     display: flex;
     flex-flow: row wrap;
@@ -321,6 +329,7 @@ main {
 #contact-information {
     display: flex;
     max-width: 30rem;
+    padding: 1rem;
     flex-flow: column nowrap;
     align-items: center;
     background-color: blue;
@@ -343,19 +352,32 @@ main {
 /* Form styling */
 
 #form-wrapper {
+    text-align: center;
     display: flex;
+    width: 100%;
+    background-color: red;
     flex-flow: column nowrap;
-    max-width: 30rem;
+    max-width: 25rem;
+    padding: 1rem;
 }
 
 #contact-form {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
 }
 
 #contact-form input {
+    width: 100%
+}
+
+#contact-form textarea {
     width: 100%;
-    max-width: 100%;
+}
+
+#contact-form input[type="submit"] {
+    width: 50%;
 }
 
 /* FOOTER STYLING */
