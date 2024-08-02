@@ -259,11 +259,17 @@ main {
     background-color: #3C5E31;
 }
 
+.adventure h2 {
+    color:white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
 /* Styling of dropdown buttons */
 
 .adventure-dropdown-buttons {
     width: 100%;
-    background-color: #89307C;
+    background-color: #5b8f49;
     padding: 0.5rem;
     font-size: 1.1rem;
     text-align: center;
