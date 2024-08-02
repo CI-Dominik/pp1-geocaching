@@ -256,16 +256,18 @@ main {
     margin: 1rem;
     flex: 1 0 50%;
     max-width: 70rem;
+    background-color: #3C5E31;
 }
 
 /* Styling of dropdown buttons */
 
 .adventure-dropdown-buttons {
     width: 100%;
-    background-color: #3bde049c;
+    background-color: #89307C;
     padding: 0.5rem;
     font-size: 1.1rem;
     text-align: center;
+    margin-bottom: 0.5rem;
     font-weight: bold;
     color: white;
 }
@@ -277,7 +279,7 @@ main {
 }
 
 .adventure-content {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -288,7 +290,9 @@ main {
     justify-content: center;
     color: white;
     flex-flow: column wrap;
-    background-color: #3C5E31;
+    padding: 1rem;
+    background-color: #5b8f49;
+    margin-bottom: 0.5rem;
     width: 100%;
 }
 
@@ -299,7 +303,7 @@ main {
 
 .adventure-image-container {
     display: flex;
-    padding: 0.5rem;
+    padding: rem;
     flex-flow: row wrap;
     width: 100%;
     justify-content: center;
@@ -341,6 +345,7 @@ main {
     padding: 1rem;
     height: 100%;
     gap: 1rem;
+    background-color: #3C5E31;
 }
 
 #contact-information {
