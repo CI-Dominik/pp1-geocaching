@@ -521,6 +521,52 @@ main {
     padding: 1rem;
 }
 
+/* 404 PAGE STYLING */
+
+#not-found-main {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 0 100wh;
+}
+
+#not-found-spacing {
+    height: 13rem;
+    width: 100%;
+}
+
+#not-found-content {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 25rem;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    background-color: #3C5E31;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#not-found-content h1 {
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+#not-found-image {
+    position: absolute;
+    max-width: 15rem;
+    max-height: 15rem;
+    top: -9.65rem;
+}
+
+#dog-photo {
+    margin: 2rem 0;
+    width: 80%;
+    height: auto;
+    max-width: 25rem;
+}
+
 /* FOOTER STYLING */
 
 footer {
