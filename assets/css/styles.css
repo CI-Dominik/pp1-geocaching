@@ -450,6 +450,7 @@ main {
     justify-content: center;
     max-width: 30rem;
 }
+
 #statistics {
     display: flex;
     padding-top: 2rem;
@@ -462,7 +463,6 @@ main {
 
 #about-main h1, h2 {
     font-size: 2rem;
-    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 
@@ -477,6 +477,30 @@ main {
 
 .statistics-item p {
     font-size: 3rem;
+}
+
+#fun-facts {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    background-color: red;
+}
+
+#fact-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0.5rem;
+}
+
+#fact-container h3 {
+    margin-bottom: 1rem;
+}
+
+.fact-item {
+    flex: 1 0 12rem;
+    max-width: 25rem;
+    padding: 1rem;
 }
 
 /* FOOTER STYLING */
