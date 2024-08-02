@@ -249,6 +249,22 @@ main {
     flex-flow: column nowrap;
 }
 
+/* Adventure Hero */
+
+#adventure-hero {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    max-width: 70rem;
+    background-color: red;
+}
+
+#adventure-hero-image {
+    background: url(../images/adventure-header.jpg) no-repeat center center/cover;
+    height: clamp(40vh, 50vh, 60vh);
+    width: 50%;
+}
+
 /* Styling of individuals adventures */
 
 .adventure {
