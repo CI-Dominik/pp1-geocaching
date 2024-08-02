@@ -335,7 +335,6 @@ main {
 
 .adventure-image-container {
     display: flex;
-    padding: rem;
     flex-flow: row wrap;
     width: 100%;
     justify-content: center;
@@ -649,7 +648,6 @@ footer i {
 
     #adventure-hero {
         flex-flow: row nowrap;
-        flex: 1 0 70%;
         font-size: clamp(0.5rem, 1rem, 3rem);
     }
 
