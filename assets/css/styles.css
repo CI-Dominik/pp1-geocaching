@@ -451,6 +451,10 @@ main {
     max-width: 30rem;
 }
 
+#about-text p {
+    margin-top: 1rem;
+}
+
 #statistics {
     display: flex;
     padding-top: 2rem;
@@ -458,7 +462,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 #about-main h1, h2 {
@@ -479,11 +483,18 @@ main {
     font-size: 3rem;
 }
 
+.statistics-item i {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+}
+
 #fun-facts {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    background-color: red;
+    background-color: #3C5E31;
+    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 #fact-container {
