@@ -259,10 +259,24 @@ main {
     background-color: red;
 }
 
+#adventure-hero-info {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#adventure-hero-info h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
 #adventure-hero-image {
     background: url(../images/adventure-header.jpg) no-repeat center center/cover;
-    height: clamp(40vh, 50vh, 60vh);
-    width: 50%;
+    height: clamp(30vh, 40vh, 50vh);
+    width: 100%;
 }
 
 /* Styling of individuals adventures */
@@ -629,6 +643,23 @@ footer i {
 
     #hero-image {
         height: clamp(60vh, 70vh, 80vh);
+    }
+
+    /* Adventure Hero adjustment */
+
+    #adventure-hero {
+        flex-flow: row nowrap;
+        flex: 1 0 70%;
+        font-size: clamp(0.5rem, 1rem, 3rem);
+    }
+
+    #adventure-hero-info {
+        width: 60vw;
+        max-width: 32rem;
+    }
+
+    #adventure-hero-image {
+        height: clamp(40vh, 50vh, 60vh);
     }
 
     /* Information adjustment */
