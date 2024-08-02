@@ -274,10 +274,6 @@ main {
 
 /* Paddng of image and content area */
 
-.adventure-image {
-    padding: 0.5rem 1rem;
-}
-
 .adventure-content {
     padding: 1rem;
     width: 100%;
