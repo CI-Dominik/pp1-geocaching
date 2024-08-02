@@ -256,11 +256,11 @@ main {
     flex-flow: column nowrap;
     width: 100%;
     max-width: 70rem;
-    background-color: red;
 }
 
 #adventure-hero-info {
     display: flex;
+    text-align: center;
     flex-flow: column nowrap;
     padding: 1rem;
     color: white;
@@ -270,7 +270,8 @@ main {
 
 #adventure-hero-info h1 {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.5rem, 2rem);
+    margin-bottom: 1rem;
 }
 
 #adventure-hero-image {
