@@ -187,7 +187,7 @@ main {
 
 /* INFORMATION STYLNIG */
 
-#information {
+.information {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -198,16 +198,32 @@ main {
     background-color: #5b8f49;
 }
 
-#information-image-container {
+#info2 {
+    flex-flow: row wrap;
+}
+
+.information-image-container {
     display: flex;
     padding-left: 5rem;
     width: 90vw;
     height: 90vw;
     border-radius: 50%;
-    max-width: 18.75rem;
-    max-height: 18.75rem;
+    max-width: 22rem;
+    max-height: 22rem;
     justify-content: center;
+    
+}
+
+#pic1 {
     background: url(../images/geocaching-information-img.jpg) no-repeat center center/cover;
+}
+
+#pic2 {
+    background: url(../images/too-old.jpg) no-repeat center center/cover;
+}
+
+#pic3 {
+    background: url(../images/what-you-need.jpg) no-repeat center center/cover;
 }
 
 #information-container {
@@ -215,7 +231,7 @@ main {
     flex-flow: column nowrap;
     padding: 1rem;
     flex: 1 0 25rem;
-    max-width: 50vw;
+    max-width: 55rem;
     text-align: center;
     width: clamp(80vw, 90vw, 100vw);
 }
@@ -515,6 +531,10 @@ footer i {
 
     #information-container {
         padding: 2rem;
+    }
+
+    #info2 {
+        flex-flow: row-reverse wrap;
     }
 
     /* Adventure adjustment */
