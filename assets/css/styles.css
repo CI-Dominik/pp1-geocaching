@@ -316,10 +316,10 @@ main {
 }
 
 .geo-image {
-    width: 10rem;
+    width: 100%;
     height: auto;
     margin: 0.2rem;
-    max-width: 10rem;
+    max-width: 15rem;
 }
 
 /* Styling for shown dropdown items */
