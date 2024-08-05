@@ -276,7 +276,8 @@ main {
 
 #adventure-hero-info {
     padding: 1.5rem;
-    max-width: 70rem;
+    font-size: 1.2rem;
+    max-width: 60rem;
     text-align: center;
     color: white;
 }
@@ -377,6 +378,7 @@ main {
     color: white;
     padding: 1rem;
     height: 100%;
+    margin: 1rem 0;
     gap: 1rem;
     background-color: #3C5E31;
 }
@@ -649,22 +651,6 @@ footer i {
 
     #hero-image {
         height: clamp(60vh, 70vh, 80vh);
-    }
-
-    /* Adventure Hero adjustment */
-
-    #adventure-hero {
-        flex-flow: row nowrap;
-        font-size: clamp(0.5rem, 1rem, 3rem);
-    }
-
-    #adventure-hero-info {
-        width: 60vw;
-        max-width: 32rem;
-    }
-
-    #adventure-hero-image {
-        height: clamp(40vh, 50vh, 60vh);
     }
 
     /* Information adjustment */
