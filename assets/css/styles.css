@@ -226,7 +226,6 @@ main {
 }
 
 .information-container h2 {
-    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -265,7 +264,6 @@ main {
 }
 
 #information-container h2 {
-    text-align: center;
     margin: 1rem 0 0.5rem 0;
 }
 
@@ -317,7 +315,6 @@ main {
 
 .adventure h2 {
     color:white;
-    text-align: center;
     padding: 0.5rem;
 }
 
@@ -717,10 +714,4 @@ footer i {
         }
     }
 
-}
-
-@media (width < 18.75rem) {
-    .information-container h2 {
-        font-size: 1rem
-    }
 }
