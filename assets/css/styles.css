@@ -490,7 +490,6 @@ main {
 
 #about-information img {
     width: 100%;
-    height: auto;
     max-width: 18.75rem;
     max-height: 18.75rem;
     border-radius: 50%;
@@ -531,6 +530,7 @@ main {
 }
 
 .statistics-item i {
+    min-width: 3rem;
     font-size: 3rem;
 }
 
