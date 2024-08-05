@@ -523,7 +523,7 @@ main {
     flex-flow: row wrap;
     padding: 1rem;
     justify-content: center;
-    max-width: 12rem;
+    max-width: 10rem;
 }
 
 .statistics-item p {
