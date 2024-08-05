@@ -513,21 +513,17 @@ main {
     display: flex;
     padding-top: 2rem;
     flex-flow: column nowrap;
-    align-self: center;
     gap: 2rem;
     margin-bottom: 3rem;
 }
 
 .statistics-item {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     width: 100%;
     background-color: #3C5E31;
-    justify-content: center;
-    align-items: center;
     gap: 1rem;
     padding: 1rem;
-    justify-content: center;
 }
 
 .statistics-item p {
@@ -674,16 +670,17 @@ footer i {
 
     /* About adjustment */
 
+    #about-information {
+        flex-flow: row nowrap;
+    }
+
     #statistics {
         flex-flow: row nowrap;
+        justify-content: center;
     }
 
     .statistics-item {
-        flex-flow: column nowrap;
-    }
-
-    #about-information {
-        flex-flow: row nowrap;
+        max-width: 15rem;
     }
 
     /* Adventure adjustment */
