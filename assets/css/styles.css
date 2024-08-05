@@ -21,7 +21,9 @@ a {
 
 /* Generic headline styling */
 
-
+h1, h2, h3 {
+    text-transform: uppercase;
+}
 
 /* HEADER STYLING */
 
@@ -138,10 +140,6 @@ main {
     justify-content: center;
     flex-flow: column nowrap;
     order: 2;
-}
-
-#hero-info h1 {
-    text-transform: uppercase;
 }
 
 #hero-info > a {
@@ -287,7 +285,6 @@ main {
 }
 
 #adventure-hero h1 {
-    text-transform: uppercase;
     text-shadow: 0.5rem 0.5rem 1rem limegreen;
 }
 
@@ -418,7 +415,6 @@ main {
 
 #contact-information > h1 {
     margin: 2rem 0;
-    text-transform: uppercase;
 }
 
 /* Form styling */
@@ -519,10 +515,6 @@ main {
     align-items: center;
     gap: 2rem;
     margin-bottom: 3rem;
-}
-
-#about-main h1, h2 {
-    text-transform: uppercase;
 }
 
 .statistics-item {
