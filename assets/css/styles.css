@@ -526,15 +526,7 @@ main {
     gap: 1rem;
     padding: 1rem;
     max-width: 15rem;
-}
-
-.statistics-item p {
     font-size: 2rem;
-}
-
-.statistics-item i {
-    min-width: 3rem;
-    font-size: 3rem;
 }
 
 #fun-facts {
