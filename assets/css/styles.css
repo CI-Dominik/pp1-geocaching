@@ -21,9 +21,7 @@ a {
 
 /* Generic headline styling */
 
-h1, h2, h3 {
-    font-size: clamp (1rem, 5vw, 2rem);
-}
+
 
 /* HEADER STYLING */
 
@@ -192,7 +190,6 @@ main {
 }
 
 .benefits-item > h3 {
-    font-size: 150%;
     line-height: 2rem;
     margin-bottom: 1rem;
 }
@@ -292,7 +289,6 @@ main {
 #adventure-hero h1 {
     text-transform: uppercase;
     text-shadow: 0.5rem 0.5rem 1rem limegreen;
-    font-size: 2rem;
 }
 
 #adventure-hero-info {
@@ -526,7 +522,6 @@ main {
 }
 
 #about-main h1, h2 {
-    font-size: 2rem;
     text-transform: uppercase;
 }
 
@@ -603,7 +598,6 @@ main {
 
 #not-found-content h1 {
     margin: 3rem 0;
-    font-size: 2rem;
 }
 
 #not-found-image {
