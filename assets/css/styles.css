@@ -19,6 +19,12 @@ a {
     text-decoration: none;
 }
 
+/* Generic headline styling */
+
+h1, h2, h3 {
+    font-size: clamp (1rem, 5vw, 2rem);
+}
+
 /* HEADER STYLING */
 
 header {
@@ -175,6 +181,7 @@ main {
 
 #benefits-container {
     display: flex;
+    width: 100%;
     flex-flow: row wrap;
 }
 
@@ -205,6 +212,22 @@ main {
 
 #info2 {
     flex-flow: row wrap;
+}
+
+.information-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    max-width: 40rem;
+    width: 100%;
+}
+
+.information-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .information-image-container {
@@ -694,4 +717,10 @@ footer i {
         }
     }
 
+}
+
+@media (width < 18.75rem) {
+    .information-container h2 {
+        font-size: 1rem
+    }
 }
