@@ -479,7 +479,7 @@ main {
 
 #about-information {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     padding: 2rem;
     gap: 2rem;
     color: white;
@@ -530,7 +530,7 @@ main {
     justify-content: center;
 }
 
-.statistics-item p, i {
+.statistics-item p, .statistics-item i {
     font-size: 3rem;
 }
 
@@ -666,6 +666,20 @@ footer i {
 
     #info2 {
         flex-flow: row-reverse wrap;
+    }
+
+    /* About adjustment */
+
+    #statistics {
+        flex-flow: row nowrap;
+    }
+
+    .statistics-item {
+        flex-flow: column nowrap;
+    }
+
+    #about-information {
+        flex-flow: row nowrap;
     }
 
     /* Adventure adjustment */
