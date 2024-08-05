@@ -633,6 +633,7 @@ footer i {
     }
 
     #hero-image {
+        order: 2;
         max-height: 40rem;
     }
 
