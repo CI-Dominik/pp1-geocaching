@@ -130,9 +130,14 @@ main {
 #hero-info {
     display: flex;
     padding: 1rem;
+    width: 100%;
     justify-content: center;
     flex-flow: column nowrap;
     order: 2;
+}
+
+#hero-info h1 {
+    text-transform: uppercase;
 }
 
 #hero-info > a {
@@ -636,6 +641,30 @@ footer i {
         order: 2;
         max-height: 40rem;
     }
+
+    #hero-info {
+        order: 0;
+        width: 40vw;
+    }
+
+    #hero-image {
+        height: clamp(60vh, 70vh, 80vh);
+    }
+
+    /* Adventure Hero adjustment */
+
+    #adventure-hero {
+        flex-flow: row nowrap;
+        font-size: clamp(0.5rem, 1rem, 3rem);
+    }
+
+    #adventure-hero-info {
+        width: 60vw;
+        max-width: 32rem;
+    }
+
+    #adventure-hero-image {
+        height: clamp(40vh, 50vh, 60vh);
 
     /* Information adjustment */
 
