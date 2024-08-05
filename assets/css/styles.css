@@ -471,8 +471,9 @@ main {
 
 #about-main {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     color: white;
+    width: 100%;
     text-align: center;
 }
 
@@ -482,6 +483,7 @@ main {
     padding: 2rem;
     gap: 2rem;
     color: white;
+    align-items: center;
     width: 100%;
     justify-content: center;
 }
@@ -495,7 +497,7 @@ main {
 }
 
 #about-text {
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     text-align: center;
     align-items: center;
     padding: 1rem;
@@ -510,29 +512,26 @@ main {
 #statistics {
     display: flex;
     padding-top: 2rem;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column nowrap;
+    align-self: center;
     gap: 2rem;
     margin-bottom: 3rem;
 }
 
 .statistics-item {
     display: flex;
-    background-color: #3C5E31;
     flex-flow: row wrap;
+    width: 100%;
+    background-color: #3C5E31;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     padding: 1rem;
     justify-content: center;
-    max-width: 10rem;
 }
 
-.statistics-item p {
+.statistics-item p, i {
     font-size: 3rem;
-}
-
-.statistics-item i {
-    font-size: 3rem;
-    margin-bottom: 0.8rem;
 }
 
 #fun-facts {
