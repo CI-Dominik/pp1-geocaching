@@ -665,6 +665,7 @@ footer i {
 
     #adventure-hero-image {
         height: clamp(40vh, 50vh, 60vh);
+    }
 
     /* Information adjustment */
 
