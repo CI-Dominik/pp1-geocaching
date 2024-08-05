@@ -253,31 +253,27 @@ main {
 
 #adventure-hero {
     display: flex;
-    flex-flow: column nowrap;
     width: 100%;
-    max-width: 70rem;
-}
-
-#adventure-hero-info {
-    display: flex;
     text-align: center;
-    flex-flow: column nowrap;
-    padding: 1rem;
     color: white;
+    background: url(../images/jungle.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+    height: clamp(10rem, 10vh, 20rem);
     justify-content: center;
     align-items: center;
 }
 
-#adventure-hero-info h1 {
+#adventure-hero h1 {
     text-transform: uppercase;
-    font-size: clamp(1rem, 1.5rem, 2rem);
-    margin-bottom: 1rem;
+    text-shadow: 0.5rem 0.5rem 1rem limegreen;
+    font-size: 2rem;
 }
 
-#adventure-hero-image {
-    background: url(../images/adventure-header.jpg) no-repeat center center/cover;
-    height: clamp(30vh, 40vh, 50vh);
-    width: 100%;
+#adventure-hero-info {
+    padding: 1.5rem;
+    max-width: 70rem;
+    text-align: center;
+    color: white;
 }
 
 /* Styling of individuals adventures */
@@ -636,29 +632,8 @@ footer i {
         font-size: clamp(0.5rem, 1rem, 3rem);
     }
 
-    #hero-info {
-        order: 0;
-        width: 40vw;
-    }
-
     #hero-image {
-        height: clamp(60vh, 70vh, 80vh);
-    }
-
-    /* Adventure Hero adjustment */
-
-    #adventure-hero {
-        flex-flow: row nowrap;
-        font-size: clamp(0.5rem, 1rem, 3rem);
-    }
-
-    #adventure-hero-info {
-        width: 60vw;
-        max-width: 32rem;
-    }
-
-    #adventure-hero-image {
-        height: clamp(40vh, 50vh, 60vh);
+        max-height: 40rem;
     }
 
     /* Information adjustment */
