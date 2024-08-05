@@ -530,7 +530,11 @@ main {
     justify-content: center;
 }
 
-.statistics-item p, .statistics-item i {
+.statistics-item p {
+    font-size: 2rem;
+}
+
+.statistics-item i {
     font-size: 3rem;
 }
 
