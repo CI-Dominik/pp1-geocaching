@@ -157,7 +157,7 @@ main {
 }
 
 #hero-image {
-    background: url(../images/hero-image.jpg) no-repeat center center/cover;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
     height: clamp(40vh, 50vh, 60vh);
     width: 100%;
 }
@@ -237,15 +237,15 @@ main {
 }
 
 #pic1 {
-    background: url(../images/geocaching-information-img.jpg) no-repeat center center/cover;
+    background: url(../images/geocaching-information-img.webp) no-repeat center center/cover;
 }
 
 #pic2 {
-    background: url(../images/too-old.jpg) no-repeat center center/cover;
+    background: url(../images/too-old.webp) no-repeat center center/cover;
 }
 
 #pic3 {
-    background: url(../images/what-you-need.jpg) no-repeat center center/cover;
+    background: url(../images/what-you-need.webp) no-repeat center center/cover;
 }
 
 #information-container {
@@ -277,7 +277,7 @@ main {
     width: 100%;
     text-align: center;
     color: white;
-    background: url(../images/jungle.jpg) no-repeat center center/cover;
+    background: url(../images/jungle.webp) no-repeat center center/cover;
     background-attachment: fixed;
     height: clamp(10rem, 10vh, 20rem);
     justify-content: center;
