@@ -278,8 +278,7 @@ main {
     text-align: center;
     color: white;
     background: url(../images/jungle.webp) no-repeat center center/cover;
-    background-attachment: fixed;
-    height: clamp(10rem, 10vh, 20rem);
+    height: 10vh;
     justify-content: center;
     align-items: center;
 }
