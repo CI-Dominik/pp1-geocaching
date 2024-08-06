@@ -529,6 +529,14 @@ main {
     font-size: 2rem;
 }
 
+.statistics-item i {
+    font-size: 3rem;
+}
+
+.statistics-item h3 {
+    font-size: 1.8rem;
+}
+
 #fun-facts {
     display: flex;
     flex-flow: column wrap;
