@@ -62,7 +62,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ## About page
 
 ### Author information
-* DESCRIPTIPN
+* DESCRIPTION
 
 ![Screenshot of the about page's author information](docs/author-information.jpg)
 
