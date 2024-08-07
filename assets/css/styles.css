@@ -423,6 +423,10 @@ main {
     margin: 2rem 0;
 }
 
+#contact-information p {
+    text-align: justify;
+}
+
 /* Form styling */
 
 #form-wrapper {
