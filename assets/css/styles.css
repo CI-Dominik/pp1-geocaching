@@ -171,6 +171,10 @@ main {
     background-color: #3C5E31;
 }
 
+#benefits p {
+    text-align: justify;
+}
+
 #benefits > h2 {
     padding-top: 1.5rem;
 }
@@ -214,10 +218,13 @@ main {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
     padding: 1rem;
     max-width: 40rem;
     width: 100%;
+}
+
+.information-container p {
+    text-align: justify;
 }
 
 .information-container h2 {
