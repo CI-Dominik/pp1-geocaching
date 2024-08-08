@@ -48,7 +48,7 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ![Screenshot of the page's favicons](docs/favicons-code.jpg)
 
 ### Contact success page
-* DESCRIPTION
+* A page dedicated to inform the user of a successful form transmission was added. It leads the visitor back to the frontpage after a delay of five seconds.
 
 ![Screenshot of the contact success page](docs/contact-success.jpg)
 
