@@ -9,24 +9,43 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
-## **Features**
+## **USER EXPERIENCE**
+
+## Target audience
+* DESCRIPTION
+
+## User's journey
+* DESCRIPTION
+
+## Intuitive and consistent design
+* DESCRIPTION
+
+---
+
+## **FEATURES**
 
 ## Site-wide
 
 ### Navigation menu
-* DESCRIPTION
+* The navigation menu was designed to attract the users to the adventures page. They should get there as soon as possible to experience the main area of the homepage. In that area, I show photos of two sample adventures and of geocaches I found along the way.
+<br>
+There is also an indicator on which page the user is currently. The selected item is underlined.
+<br>
+In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is collapsible to reveal the hyperlinks. It was created using a self written JavaScript file.
 
 ![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)
+![Screenshot of the page's navigation menu in mobile view](docs/navigation-menu-mobile.jpg)
 
 ### Footer
-* ARIA-LABELS!!
+* The footer consists of social media links to LinkedIn, Facebook, X, Instagram and Pinterest. All of those links got an aria label to increase the accessibility for impaired users. Also, every link has a rel attribute of "noopener" to prevent security problems.
 
 ![Screenshot of the page's footer](docs/footer.jpg)
 
 ### Favicons
-* DESCRIPTION
+* As a favicon, the geocaching logo was used so the user immediately gets the right impression of the content. Icons in different sizes were added to display an icon for every use case. For example as the tab's icon or when the page gets saved as a link on a mobile device.
 
-![Screenshot of the page's favicons](docs/favicons.jpg)
+![Screenshot of the page's favicons](docs/favicons.jpg)<br>
+![Screenshot of the page's favicons](docs/favicons-code.jpg)
 
 ### Contact success page
 * DESCRIPTION
@@ -34,7 +53,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ![Screenshot of the contact success page](docs/contact-success.jpg)
 
 ### 404 page
-* DESCRIPTION
+* A 404 page was added to inform the user when a page cannot be found. It also features the navigation and footer bar to lead the user back to another page of the site.
 
 ![Screenshot of the page's 404 page](docs/404.jpg)
 
@@ -101,7 +120,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 
 ---
 
-## **Features explained**
+## **FEATURES EXPLAINED**
 
 ## Existing
 
