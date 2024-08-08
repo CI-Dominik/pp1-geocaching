@@ -19,7 +19,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)
 
 ### Footer
-* DESCRIPTION
+* ARIA-LABELS!!
 
 ![Screenshot of the page's footer](docs/footer.jpg)
 
@@ -45,12 +45,12 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ### Hero image
 * DESCRIPTION
 
-![Screenshot of the landing page's hero image](docs/landing-page.jpg)
+![Screenshot of the landing page's hero image](docs/hero-section.jpg)
 
 ### Benefits section
 * DESCRIPTION
 
-![Screenshot of the landing page's benefits section](docus/benefits-section.jpg)
+![Screenshot of the landing page's benefits section](docs/benefits-section.jpg)
 
 ### Geocaching explanation
 *DESCRIPTION
@@ -97,7 +97,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ### Contact text and form
 * DESCRIPTION
 
-![Screenshot of the contact page's contact text and form](docs/contact-page.jpg)
+![Screenshot of the contact page's text and form](docs/contact-page.jpg)
 
 ---
 
@@ -189,15 +189,46 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Table xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ## **Accessibility**
 
 ### Lighthouse testing
-* DESCRIPTION
+* Lighthouse testing was used to determine the site's proberties regarding performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.<br>
+The accessibility rating suffered a bit from low contrast due to color choices on the homepage. This matter will be addressed further in the [bugs](#bugs) section.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Lighthouse screenshots xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+**Frontpage**
+
+![Screenshot of the lighthouse test for the frontpage in mobile view](docs/benchmarks/benchmark_frontpage_mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the frontpage in desktop view](docs/benchmarks/benchmark_frontpage_desktop.jpg)
+
+**Adventures**
+
+![Screenshot of the lighthouse test for the adventures page in mobile view](docs/benchmarks/benchmark_adventures_mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the adventures page in desktop view](docs/benchmarks/benchmark_adventures_desktop.jpg)
+
+The adventures page suffered from file sizing. This will be addressed in the [bugs](#bugs) section.
+
+**About me**
+
+![Screenshot of the lighthouse test for the about page in mobile view](docs/benchmarks/benchmark_about_mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the about page in desktop view](docs/benchmarks/benchmark_about_desktop.jpg)
+
+**Contact**
+
+![Screenshot of the lighthouse test for the contact page in mobile view](docs/benchmarks/benchmark_contact_mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the contact page in desktop view](docs/benchmarks/benchmark_contact_desktop.jpg)
 
 ### WAVE extension (Google Chrome)
-* DESCRIPTION
+* The WAVE extension in Google Chrome was used to spot errors in page design. Some of the homepage's areas suffer from low contrast. This issue will be thought about in the future to discuss a redesign of the used color palette.<br>
+The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
+The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
+
 
 ### Manual testing
-* DESCRIPTION
+
+|Testing method | Expected result | Actual result |
+|:-------------:|:---------------:|:-------------:|
+|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
 
 ### Issues and fixes
 * DESCRIPTION
