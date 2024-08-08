@@ -134,21 +134,21 @@ A form to insert some personal data is presented to each visitor.
 ## Existing
 
 ### Responsive design
-* The homepage is fully responsive on any 
+* The homepage should behave responsive on any kind of device, ranging from smartphones to desktop browers. Everything was tested using Google Chrome's developer tools.
 
 ### Interactive dropdown buttons on adventure page
-* DESCRIPTION
+* On the adventure page, it is possible to open up dropdown menus for every found geocache. Those menus are implemented using JavaScript.
 
 ### Contact form
-* DESCRIPTION
+* A contact form for transmitting user messages is added to let the visitor get in touch with Dominik Wulf should they have questions or suggestions for improvement.
 
 ## Upcoming
 
 ### Connection to a database to pull adventures and images from
-* DESCRIPTION
+* It is planned to implement a database system to store taken adventures and found geocaches. This way, they can get extracted from the backend to dynamically display updated content on the adventure page.
 
 ### Auto-adjusting counter for geocaching tours, found geocaches and missed geocaches
-* DESCRIPTION
+* In addition to the stored data of adventures, a database should contain the amounts to found and missed geocaches and the number of adventures taken.
 
 ---
 
@@ -177,37 +177,34 @@ A form to insert some personal data is presented to each visitor.
 ## **TECHNOLOGIES**
 
 ### HTML
-* DESCRIPTION
+* HTML (HyperText Markup Language) is used to create the structure of the homepage.
 
 ### CSS
-* DESCRIPTION
+* All styled are applied by using and linking a CSS (Cascading Style Sheet) file.
 
 ### JavaScript
-* DESCRIPTION
+* JavaScript is used to create the navigation menu and the adventure dropdown buttons.
 
 ### Visual Studio Code
-* DESCRIPTION
+* Visual Studio Code is used to clone the GitHub repository, edit the homepage's code and commit / push the results to GitHub.
 
 ### GitHub
-* DESCRIPTION
+* GitHub is used to store the homepage's files. Everything was deployed using GitHub Pages.
 
 ### Adobe Photoshop
-* DESCRIPTION
+* Adobe Photoshop is used to create content images and wireframes.
 
 ### Fontawesome
-* DESCRIPTION
+* Fontawesome is linked in the homepage's code to include icon files.
 
 ### Favicon generator
-* DESCRIPTION
+* [Favicon Generator](https://realfavicongenerator.net/) is used to implement the page's favicon images.
 
 ---
 
 ## **TESTING**
 
 ## Responsiveness
-
-### Steps
-* DESCRIPTION
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
@@ -298,20 +295,24 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 ## **Unfixed bugs**
 
 ### Bugs
-* DESCRIPTION
+* A bug was found when checking the about page's mobile view in the online version of the homepage with Lighthouse. In some cases, the performance was decreased due to layout shifts.
 
 ### Potential fix
-* DESCRIPTION
+* Adjusting the flow of the about page.
 
 ---
 
 ## **Deployment**
 
 ### Visual Studio Code connection
-* DESCRIPTION
+* A connection between Visual Studio Code and GitHub was established using the built-in function to include the ability to clone, stage, commit and push content directly to GitHub.
+
+![Screenshot of the menu to connect Visual Studio Code with GitHub](docs/vscode-connection.jpg)
 
 ### Deployment via Visual Studio Code
-* DESCRIPTION
+* Visual Studio code was used to stage all changed files and commit them with an included message directly to GitHub.
+
+![Screenshot of the menu to commit changes to GitHub](docs/vscode-commit.jpg)
 
 ---
 
