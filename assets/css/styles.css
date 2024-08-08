@@ -171,10 +171,6 @@ main {
     background-color: #3C5E31;
 }
 
-#benefits p {
-    text-align: justify;
-}
-
 #benefits > h2 {
     padding-top: 1.5rem;
 }
@@ -217,14 +213,11 @@ main {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
+    text-align: center;
     align-items: center;
     padding: 1rem;
     max-width: 40rem;
     width: 100%;
-}
-
-.information-container p {
-    text-align: justify;
 }
 
 .information-container h2 {
@@ -423,10 +416,6 @@ main {
     margin: 2rem 0;
 }
 
-#contact-information p {
-    text-align: justify;
-}
-
 /* Form styling */
 
 #form-wrapper {
@@ -493,7 +482,7 @@ main {
     padding: 2rem;
     gap: 2rem;
     color: white;
-    text-align: justify;
+    text-align: center;
     align-items: center;
     width: 100%;
     justify-content: center;
@@ -513,10 +502,6 @@ main {
     padding: 1rem;
     justify-content: center;
     max-width: 30rem;
-}
-
-#about-text p {
-    text-align: justify;
 }
 
 #about-text p {
@@ -566,10 +551,6 @@ main {
     justify-content: center;
     flex-flow: row wrap;
     margin: 0.5rem;
-}
-
-#fact-container p {
-    text-align: justify;
 }
 
 #fact-container h3 {
