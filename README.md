@@ -116,7 +116,14 @@ A fracture of the content is already shown in the initial site view as a spoiler
 ## Contact page
 
 ### Contact text and form
-* A welcoming picture and a text leading the user to connecting with Dominik Wulf is placed to strenghawfawfd
+* A welcoming picture and a text are placed to lead the user to getting in touch with the site owner.<br>
+A form to insert some personal data is presented to each visitor.
+  * First name is a required text input
+  * Last name is a required text input
+  * Email address is a required email input to get in touch with the user
+  * The personal message is a required textarea for submitting a message
+  * The send button is used to send the data to contact-success.html
+    * The success page will direct the user back to the frontpage after five seconds
 
 ![Screenshot of the contact page's text and form](docs/contact-page.jpg)
 
