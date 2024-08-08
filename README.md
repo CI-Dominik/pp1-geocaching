@@ -275,10 +275,14 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 ## **Validator testing**
 
 ### HTML validator
-* DESCRIPTION
+* All pages were checked for their HTML structure by the W3C Markup Validation Service. No document showed any errors.
+
+![Screenshot of the HTML validation](docs/html-validation.jpg)
 
 ### CSS validator
-* DESCRIPTION
+* The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
+
+![Screenshot of the CSS validation](docs/css-validation.jpg)
 
 ---
 

@@ -568,7 +568,6 @@ main {
 #not-found-main {
     display: flex;
     flex-flow: column nowrap;
-    flex: 1 0 100wh;
     align-items: center;
 }
 
