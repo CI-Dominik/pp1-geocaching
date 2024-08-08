@@ -61,18 +61,20 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 
 ## Landing page
 
-### Hero image
-* DESCRIPTION
+### Hero section
+* The hero section of the homepage is meant to attract the user's attention. A picture of Dominik Wulf is shown on the right side. He is wearing a safari outfit to set the theme and mood for adventures.<br>
+An additional information section describes the content the user will see on the page. A call to action button is placed to immediately lead the user to the adventures site.
 
 ![Screenshot of the landing page's hero image](docs/hero-section.jpg)
 
 ### Benefits section
-* DESCRIPTION
+* Just below the hero section lies a list of benefits geocahing provides to encourage people to also pick up the hobby and increase their health.<br>
+A fracture of the content is already shown in the initial site view as a spoiler to imply that more content awaits on the frontpage.
 
 ![Screenshot of the landing page's benefits section](docs/benefits-section.jpg)
 
 ### Geocaching explanation
-*DESCRIPTION
+* In this section, the user can gather additional pieces of information about the activity. Also, they should get an insight if it is the right hobby for them as well. Some convincing facts should lead the user to starting the geocaching journey.
 
 ![Screenshot of the landing page's geocaching explanation](docs/geocaching-explanation.jpg)
 
@@ -81,17 +83,17 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ## About page
 
 ### Author information
-* DESCRIPTION
+* A photo displaying Dominik Wulf holding a geocaching items for comedic effect and a text describing him as a person. In addition to the general geocaching infos, the user should get an impresson of the site owner's personal life to strenghten the human bond.
 
 ![Screenshot of the about page's author information](docs/author-information.jpg)
 
 ### Geocaching statistics
-* DESCRIPTION
+* An overview of Dominik Wulf's personal adventure statistics, showing the total tours, found geocaches and missed geocaches. This way, the user gets a brief overview of the scale of the hobby and time spent.
 
 ![Screenshot of the about page's geoaching statistics](docs/geocaching-statistics.jpg)
 
 ### Fun facts
-* DESCRIPTION
+* Some fun facts about the site owner as an entertaining addition.
 
 ![Screenshot of the about page's fun facts section](docs/fun-facts.jpg)
 
@@ -100,12 +102,12 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ## Adventures page
 
 ### Introduction to adventures
-* DESCRIPTION
+* The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below.
 
 ![Screenshot of the adventure page's introduction section](docs/adventures-introduction.jpg)
 
 ### Sample adventures
-* DESCRIPTION
+* Two sample adventures of Dominik Wulf. Each section starts with a header picture of the trip and several small photos for each found geocache. In addition, a block of information is presented for each cache.
 
 ![Screenshot of the adventure page's sample adventures section](docs/adventures-sample.jpg)
 
@@ -114,7 +116,7 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ## Contact page
 
 ### Contact text and form
-* DESCRIPTION
+* A welcoming picture and a text leading the user to connecting with Dominik Wulf is placed to strenghawfawfd
 
 ![Screenshot of the contact page's text and form](docs/contact-page.jpg)
 
@@ -125,7 +127,7 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ## Existing
 
 ### Responsive design
-* DESCRIPTION
+* The homepage is fully responsive on any 
 
 ### Interactive dropdown buttons on adventure page
 * DESCRIPTION
