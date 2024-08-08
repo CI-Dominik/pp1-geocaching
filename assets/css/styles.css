@@ -569,6 +569,7 @@ main {
     display: flex;
     flex-flow: column nowrap;
     flex: 1 0 100wh;
+    align-items: center;
 }
 
 #not-found-spacing {
@@ -580,10 +581,12 @@ main {
     display: flex;
     flex-flow: column nowrap;
     flex: 1 1 25rem;
+    max-width: 70rem;
     position: relative;
+    padding: 2rem;
     align-items: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     background-color: #3C5E31;
     color: white;

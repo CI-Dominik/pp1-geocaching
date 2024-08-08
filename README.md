@@ -143,7 +143,7 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 
 ---
 
-## **Design**
+## **DESIGN**
 
 ## Wireframes
 
@@ -165,7 +165,7 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 
 ---
 
-## **Used technologies**
+## **TECHNOLOGIES**
 
 ### HTML
 * DESCRIPTION
@@ -193,14 +193,16 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 
 ---
 
-## **Testing**
+## **TESTING**
 
 ## Responsiveness
 
 ### Steps
 * DESCRIPTION
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Table xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+|Testing method | Expected result | Actual result |
+|:-------------:|:---------------:|:-------------:|
+|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
 
 
 ---
@@ -244,13 +246,11 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 
 
 ### Manual testing
+* DESCRIPTION
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
 |PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
-
-### Issues and fixes
-* DESCRIPTION
 
 ---
 
@@ -259,8 +259,16 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 ### Navigation links
 * DESCRIPTION
 
+|Testing method | Expected result | Actual result |
+|:-------------:|:---------------:|:-------------:|
+|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
+
 ### Contact form
 * DESCRIPTION
+
+|Testing method | Expected result | Actual result |
+|:-------------:|:---------------:|:-------------:|
+|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
 
 ---
 
