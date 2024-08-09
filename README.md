@@ -318,7 +318,6 @@ A form to insert some personal data is presented to each visitor.
 
 ### Lighthouse testing
 * Lighthouse testing was used to determine the site's proberties regarding performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.<br>
-The accessibility rating suffered a bit from low contrast due to color choices on the homepage. This matter will be addressed further in the [bugs](#bugs) section.
 
 **Frontpage**
 
@@ -359,7 +358,7 @@ The adventures page suffered from file sizing. This will be addressed further in
 ![Screenshot of the lighthouse test for the 404 page in desktop view](docs/benchmarks/404-desktop.jpg)
 
 ### WAVE extension
-* The WAVE extension in Google Chrome was used to spot errors in page design. Some of the homepage's areas suffer from low contrast. This issue will be thought about in the future to discuss a redesign of the used color palette.<br>
+* The WAVE extension in Google Chrome was used to spot errors in page design. It falsely detected headings 
 The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
 The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
 
