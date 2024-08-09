@@ -366,7 +366,8 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 
 * Everyone should be able to enjoy the website content, so an alt tag was added to every picture to describe it.<br>
 In addition to this, aria labels were added to social media links to describe their behaviour. It is also mentioned that those open in a new tab.<br>
-This way, every screen reader should be able to pick of the provided content.
+This way, every screen reader should be able to pick of the provided content.<br>
+Lastly, the colours of the homepage were chosen to ensure enough contrast for visually impaired users.
 
 ---
 
