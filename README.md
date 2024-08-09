@@ -127,8 +127,8 @@ to any other part of the homepage if they have questions for the site owner or w
 ## Site-wide
 
 ### Navigation menu
-* The navigation menu was designed to attract the users to the adventures page. They should get there as soon as possible to experience the main area of the homepage. In that area, I show photos of two sample adventures and of geocaches I found along the way. There is also an indicator on which page the user is currently. The selected item is underlined.
-In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is collapsible to reveal the hyperlinks. It was created using a self written JavaScript file.
+* The navigation menu was designed to attract the users to the adventures page. They should get there as soon as possible to experience the main area of the homepage in which I show photos of two sample adventures and of geocaches I found along the way. There is also an indicator on which page the user is currently at. The selected item is underlined.
+In mobile view (width < 48rem), the navigation becomes a burger menu that is collapsible to reveal the hyperlinks. It was created using a self written JavaScript file.
 
 ![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)<br>
 ![Screenshot of the page's navigation menu in mobile view](docs/navigation-menu-mobile.jpg)
@@ -159,13 +159,13 @@ In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is c
 ## Landing page
 
 ### Hero section
-* The hero section of the homepage is meant to attract the user's attention. A picture of Dominik Wulf is shown on the right side. He is wearing a safari outfit to set the theme and mood for adventures.<br>
+* The hero section of the homepage is meant to attract the user's attention. A picture of Dominik Wulf is shown on the right side. He is wearing a safari outfit to set the theme and mood for adventures and create something to laugh at.<br>
 An additional information section describes the content the user will see on the page. A call to action button is placed to immediately lead the user to the adventures site.
 
 ![Screenshot of the landing page's hero image](docs/hero-section.jpg)
 
 ### Benefits section
-* Just below the hero section lies a list of benefits geocahing provides to encourage people to also pick up the hobby and increase their health.<br>
+* Just below the hero section lies a list of benefits geocaching provides to encourage people to also pick up the hobby and increase their health.<br>
 A fracture of the content is already shown in the initial site view as a spoiler to imply that more content awaits on the frontpage.
 
 ![Screenshot of the landing page's benefits section](docs/benefits-section.jpg)
