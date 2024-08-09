@@ -277,7 +277,7 @@ main {
     display: flex;
     width: 100%;
     text-align: center;
-    color: white;
+    color: black;
     background: url(../images/jungle.webp) no-repeat center center/cover;
     height: 10vh;
     justify-content: center;
@@ -285,7 +285,10 @@ main {
 }
 
 #adventure-hero h1 {
-    text-shadow: 0.5rem 0.5rem 1rem limegreen;
+    background: rgba(167, 209, 177, 0.8);
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: 2px solid black;
 }
 
 #adventure-hero-info {
