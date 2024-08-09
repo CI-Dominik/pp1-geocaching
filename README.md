@@ -102,6 +102,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 [**CREDITS**](#credits)
   * [PicturePeople Leverkusen](#picturepeople-leverkusen-photo-studio)
   * [Fontawesome](#fontawesome-1)
+  * [Techsini](#techsini)
   * [YouTube](#youtube)
   * [Pixabay](#pixabay)
   * [Pexels](#pexels)
@@ -431,6 +432,9 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 
 ### Fontawesome
 * Links to several icons
+
+### Techsini
+* Used to create the mockup in the readme file
 
 ### YouTube
 * Several videos for learning
