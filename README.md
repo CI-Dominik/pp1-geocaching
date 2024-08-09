@@ -322,29 +322,41 @@ The accessibility rating suffered a bit from low contrast due to color choices o
 
 **Frontpage**
 
-![Screenshot of the lighthouse test for the frontpage in mobile view](docs/benchmarks/benchmark_frontpage_mobile.jpg)
+![Screenshot of the lighthouse test for the frontpage in mobile view](docs/benchmarks/frontpage-mobile.jpg)
 <br><br>
-![Screenshot of the lighthouse test for the frontpage in desktop view](docs/benchmarks/benchmark_frontpage_desktop.jpg)
+![Screenshot of the lighthouse test for the frontpage in desktop view](docs/benchmarks/frontpage-desktop.jpg)
 
 **Adventures**
 
-![Screenshot of the lighthouse test for the adventures page in mobile view](docs/benchmarks/benchmark_adventures_mobile.jpg)
+![Screenshot of the lighthouse test for the adventures page in mobile view](docs/benchmarks/adventures-mobile.jpg)
 <br><br>
-![Screenshot of the lighthouse test for the adventures page in desktop view](docs/benchmarks/benchmark_adventures_desktop.jpg)
+![Screenshot of the lighthouse test for the adventures page in desktop view](docs/benchmarks/adventures-desktop.jpg)
 
-The adventures page suffered from file sizing. This will be addressed in the [bugs](#bugs) section.
+The adventures page suffered from file sizing. This will be addressed further in the future.
 
 **About me**
 
-![Screenshot of the lighthouse test for the about page in mobile view](docs/benchmarks/benchmark_about_mobile.jpg)
+![Screenshot of the lighthouse test for the about page in mobile view](docs/benchmarks/about-mobile.jpg)
 <br><br>
-![Screenshot of the lighthouse test for the about page in desktop view](docs/benchmarks/benchmark_about_desktop.jpg)
+![Screenshot of the lighthouse test for the about page in desktop view](docs/benchmarks/about-desktop.jpg)
 
 **Contact**
 
-![Screenshot of the lighthouse test for the contact page in mobile view](docs/benchmarks/benchmark_contact_mobile.jpg)
+![Screenshot of the lighthouse test for the contact page in mobile view](docs/benchmarks/contact-mobile.jpg)
 <br><br>
-![Screenshot of the lighthouse test for the contact page in desktop view](docs/benchmarks/benchmark_contact_desktop.jpg)
+![Screenshot of the lighthouse test for the contact page in desktop view](docs/benchmarks/contact-desktop.jpg)
+
+**Contact success**
+
+![Screenshot of the lighthouse test for the contact success page in mobile view](docs/benchmarks/success-mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the contact success page in desktop view](docs/benchmarks/success-desktop.jpg)
+
+**404 page**
+
+![Screenshot of the lighthouse test for the 404 page in mobile view](docs/benchmarks/404-mobile.jpg)
+<br><br>
+![Screenshot of the lighthouse test for the 404 page in desktop view](docs/benchmarks/404-desktop.jpg)
 
 ### WAVE extension
 * The WAVE extension in Google Chrome was used to spot errors in page design. Some of the homepage's areas suffer from low contrast. This issue will be thought about in the future to discuss a redesign of the used color palette.<br>
