@@ -2,11 +2,108 @@
 # Geocaching Adventures
 Geocaching Adventures is a homepage about one of Dominik Wulf's favourite hobbies. On this page, he shares some pieces of information about the activity and his adventures. The site features four pages.
 
-The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dominik.github.io/pp1-geocaching/index.html "Test")
+The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dominik.github.io/pp1-geocaching/index.html "Link to the live website")
 
 ![Mockup image of Geocaching Adventures](docs/mockup.jpg)
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## **TABLE OF CONTENTS**
+
+[**USER EXPERIENCE**](#user-experience)
+  * [Target audience](#target-audience)
+  * [User's journey](#users-journey)
+  * [Intuitive and consistent design](#intuitive-and-consistent-design)
+    
+<br>
+
+[**FEATURES**](#features)
+  * [Site-wide](#site-wide)
+    * [Navigation menu](#navigation-menu)
+    * [Footer](#footer)
+    * [Favicons](#favicons)
+    * [Contact success page](#contact-success-page)
+    * [404 page](#404-page)
+  * [Landing page](#landing-page)
+    * [Hero section](#hero-section)
+    * [Benefits section](#benefits-section)
+    * [Geocaching explanation](#geocaching-explanation)
+  * [About page](#about-page)
+    * [Author information](#author-information)
+    * [Geocaching statistics](#geocaching-statistics)
+    * [Fun facts](#fun-facts)
+  * [Adventures page](#adventures-page)
+    * [Introduction and sample adventures](#introduction-and-sample-adventures)
+  * [Contact page](#contact-page)
+    * [Contact text and form](#contact-text-and-form)
+
+<br>
+
+[**FEATURES EXPLAINED**](#features-explained)
+  * [Existing](#existing)
+    * [Responsive design](#responsive-design)
+    * [Interactive dropdown buttons on adventure page](#interactive-dropdown-buttons-on-adventure-page)
+    * [Contact form to submit a message](#contact-form-to-submit-a-message)
+  * [Upcoming](#upcoming)
+    * [Connection to a database](#connection-to-a-database)
+    * [Auto-adjusting counter](#auto-adjusting-counters)
+    
+<br>
+
+[**DESIGN**](#design)
+  * [Wireframes](#wireframes)
+    * [Landing page](#landing-page)
+    * [Adventures page](#adventures-page-1)
+    * [About page](#about-page-1)
+    
+<br>
+
+[**TECHNOLOGIES**](#technologies)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [JavaScript](#javascript)
+  * [Visual Studio Code](#visual-studio-code)
+  * [GitHub](#github)
+  * [Adobe Photoshop](#adobe-photoshop)
+  * [Fontawesome](#fontawesome)
+  * [Favicon generator](#favicon-generator)
+    
+<br>
+
+[**TESTING**](#testing)
+  * [Responsiveness](#responsiveness)
+    
+<br>
+
+[**ACCESSIBILTIY**](#accessibility)
+  * [Lighthouse testing](#lighthouse-testing)
+  * [WAVE extension](#wave-extension)
+  * [Goal of accessibility measures](#goal-of-accessibility-measures)
+    
+<br>
+
+[**FUNCTIONAL TESTING**](#functional-testing)
+  * [Navigation links](#navigation-links)
+  * [Contact form](#contact-form)
+    
+<br>
+
+[**VALIDATOR TESTING**](#validator-testing)
+  * [HTML validator](#html-validator)
+  * [CSS validator](#css-validator)
+    
+<br>
+
+[**DEPLOYMENT**](#deployment)
+  * [Visual Studio Code connection](#visual-studio-code-connection)
+  * [Deployment via Visual Studio Code](#deployment-via-visual-studio-code)
+    
+<br>
+
+[**CREDITS**](#credits)
+  * [PicturePeople Leverkusen](#picturepeople-leverkusen-photo-studio)
+  * [Fontawesome](#fontawesome-1)
+  * [YouTube](#youtube)
+  * [Pixabay](#pixabay)
+  * [Pexels](#pexels)
 
 ## **USER EXPERIENCE**
 
@@ -138,15 +235,15 @@ A form to insert some personal data is presented to each visitor.
 ### Interactive dropdown buttons on adventure page
 * On the adventure page, it is possible to open up dropdown menus for every found geocache. Those menus are implemented using JavaScript.
 
-### Contact form
+### Contact form to submit a message
 * A contact form for transmitting user messages is added to let the visitor get in touch with Dominik Wulf should they have questions or suggestions for improvement.
 
 ## Upcoming
 
-### Connection to a database to pull adventures and images from
+### Connection to a database
 * It is planned to implement a database system to store taken adventures and found geocaches. This way, they can get extracted from the backend to dynamically display updated content on the adventure page.
 
-### Auto-adjusting counter for geocaching tours, found geocaches and missed geocaches
+### Auto-adjusting counters
 * In addition to the stored data of adventures, a database should contain the amounts to found and missed geocaches and the number of adventures taken.
 
 ---
@@ -215,7 +312,7 @@ A form to insert some personal data is presented to each visitor.
 
 ---
 
-## **Accessibility**
+## **ACCESSIBILITY**
 
 ### Lighthouse testing
 * Lighthouse testing was used to determine the site's proberties regarding performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.<br>
@@ -247,10 +344,16 @@ The adventures page suffered from file sizing. This will be addressed in the [bu
 <br><br>
 ![Screenshot of the lighthouse test for the contact page in desktop view](docs/benchmarks/benchmark_contact_desktop.jpg)
 
-### WAVE extension (Google Chrome)
+### WAVE extension
 * The WAVE extension in Google Chrome was used to spot errors in page design. Some of the homepage's areas suffer from low contrast. This issue will be thought about in the future to discuss a redesign of the used color palette.<br>
 The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
 The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
+
+### Goal of accessibility measures
+
+* Everyone should be able to enjoy the website content, so an alt tag was added to every picture to describe it.<br>
+In addition to this, aria labels were added to social media links to describe their behaviour. It is also mentioned that those open in a new tab.<br>
+This way, every screen reader should be able to pick of the provided content.
 
 ---
 
@@ -265,7 +368,7 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 | Click on every link in the navigation menu to reach other pages | Links should be clickable and send me to the desired page | Expted results were achieved |
 
 ### Contact form
-* DESCRIPTION
+* The contact form should only be sendable once every piece of information is entered correctly. Afterwards, the user should be sent to a success page.
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
