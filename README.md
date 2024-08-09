@@ -53,6 +53,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
     * [Landing page](#landing-page)
     * [Adventures page](#adventures-page-1)
     * [About page](#about-page-1)
+    * [Contact page](#contact-page-1)
     
 <br>
 
@@ -254,19 +255,23 @@ A form to insert some personal data is presented to each visitor.
 
 ### Landing page
 
-![Screenshot of the wireframe for the landing page](docs/landing-wireframe.jpg)
+![Screenshot of the wireframe for the landing page](docs/wireframes/landing-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the landing page](docs/wireframes/landing-wireframe.jpg)
 
 ### Adventures page
 
-![Screenshot of the wireframe for the adventures page](docs/adventures-wireframe.jpg)
+![Screenshot of the wireframe for the adventures page](docs/wireframes/adventures-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the adventures page](docs/wireframes/adventures-wireframe.jpg)
 
 ### About page
 
-![Screenshot of the wireframe for the about page](docs/about-wireframe.jpg)
+![Screenshot of the wireframe for the about page](docs/wireframes/about-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the about page](docs/wireframes/about-wireframe.jpg)
 
 ### Contact page
 
-![Screenshot of the wireframe for the contact page](docs/contact-wireframe.jpg)
+![Screenshot of the wireframe for the contact page](docs/wireframes/contact-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the contact page](docs/wireframes/contact-wireframe.jpg)
 
 ---
 
