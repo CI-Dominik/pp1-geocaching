@@ -130,7 +130,7 @@ to any other part of the homepage if they have questions for the site owner or w
 * The navigation menu was designed to attract the users to the adventures page. They should get there as soon as possible to experience the main area of the homepage. In that area, I show photos of two sample adventures and of geocaches I found along the way. There is also an indicator on which page the user is currently. The selected item is underlined.
 In mobile view (width < 768px / 48rem), the menu becomes a burger menu that is collapsible to reveal the hyperlinks. It was created using a self written JavaScript file.
 
-![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)
+![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)<br>
 ![Screenshot of the page's navigation menu in mobile view](docs/navigation-menu-mobile.jpg)
 
 ### Footer
