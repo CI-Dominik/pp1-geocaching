@@ -36,19 +36,19 @@ header {
     height: 2.5rem;
     z-index: 98;
     width: 100%;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
     justify-content: space-between;
     box-shadow: 0 0.25rem 0.25rem black;
 }
 
 header a {
-    color: white;
+    color: black;
 }
 
 /* Dropdown menu Icon */
 
 header i {
-    color: white;
+    color: black;
     font-size: 1.5rem;
 }
 
@@ -65,6 +65,7 @@ header i {
 
 .nav-adventure {
     background-color: #89307C;
+    color: white;
     padding: 0.3rem 1.5rem;
     border-radius: 20px;
 }
@@ -75,7 +76,7 @@ header i {
 }
 
 .nav-link:hover {
-    color: #3bde049c;
+    color: white;
 }
 
 .active-link {
@@ -93,13 +94,13 @@ header i {
     width: 100vw;
     justify-content: center;
     align-items: center;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
     padding: 1rem;
 
 }
 
 #mobile-nav a {
-    color: white;
+    color: black;
 }
 
 #mobile-nav a:hover {
@@ -117,7 +118,7 @@ header i {
 main {
     display: flex;
     flex-flow: column nowrap;
-    background-color: #5b8f49;
+    background-color: #e3f3e7;
     height: 100%;
     flex: 1 0 100%;
 }
@@ -129,8 +130,8 @@ main {
     text-align: center;
     flex-flow: column nowrap;
     width: 100%;
-    color: white;
-    background-color: #5b8f49;
+    color: black;
+    background-color: #e3f3e7;
 }
 
 #hero-info {
@@ -165,10 +166,10 @@ main {
 /* BENEFITS STYLING */
 
 #benefits {
-    color: white;
+    color: black;
     text-align: center;
     width: 100%;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
 }
 
 #benefits > h2 {
@@ -200,9 +201,9 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: white;
+    color: black;
     padding: 1rem;
-    background-color: #5b8f49;
+    background-color: #e3f3e7;
 }
 
 #info2 {
@@ -292,7 +293,7 @@ main {
     font-size: 1.2rem;
     max-width: 60rem;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 /* Styling of individuals adventures */
@@ -302,11 +303,11 @@ main {
     margin: 1rem;
     flex: 1 0 50%;
     max-width: 70rem;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
 }
 
 .adventure h2 {
-    color:white;
+    color:black;
     padding: 0.5rem;
     text-align: center;
 }
@@ -315,13 +316,13 @@ main {
 
 .adventure-dropdown-buttons {
     width: 100%;
-    background-color: #5b8f49;
+    background-color: #e3f3e7;
     padding: 0.5rem;
     font-size: 1.1rem;
     text-align: center;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
@@ -337,10 +338,10 @@ main {
 .adventure-dropdown {
     display: none;
     justify-content: center;
-    color: white;
+    color: black;
     flex-flow: column wrap;
     padding: 1rem;
-    background-color: #5b8f49;
+    background-color: #e3f3e7;
     margin-bottom: 0.5rem;
     width: 100%;
 }
@@ -389,12 +390,12 @@ main {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     padding: 1rem;
     height: 100%;
     margin: 1rem 0;
     gap: 1rem;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
 }
 
 #contact-information {
@@ -459,6 +460,7 @@ main {
     max-width: 10rem;
     font-size: 1.2rem;
     background-color: #89307C;
+    border-radius: 1rem;
     color: white;
     padding: 0;
 }
@@ -473,7 +475,7 @@ main {
 #about-main {
     display: flex;
     flex-flow: column nowrap;
-    color: white;
+    color: black;
     width: 100%;
     text-align: center;
 }
@@ -483,7 +485,7 @@ main {
     flex-flow: column nowrap;
     padding: 2rem;
     gap: 2rem;
-    color: white;
+    color: black;
     text-align: center;
     align-items: center;
     width: 100%;
@@ -524,7 +526,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
     gap: 1rem;
     padding: 1rem;
     max-width: 15rem;
@@ -543,7 +545,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
     margin-bottom: 2rem;
     padding: 2rem;
 }
@@ -589,8 +591,8 @@ main {
     text-align: center;
     font-size: 1.5rem;
     width: 100%;
-    background-color: #3C5E31;
-    color: white;
+    background-color: #a7d1b1;
+    color: black;
     margin-bottom: 2rem;
 }
 
@@ -619,11 +621,11 @@ footer {
     padding: 0.6rem;
     align-items: center;
     justify-content: space-around;
-    background-color: #3C5E31;
+    background-color: #a7d1b1;
 }
 
 footer i {
-    color: white;
+    color: black;
 }
 
 /* MEDIA QUERIES STARTING FROM 48 REM (768PX WITH STANDARD FONT-SIZE) */
