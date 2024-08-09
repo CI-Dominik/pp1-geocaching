@@ -358,7 +358,7 @@ The adventures page suffered from file sizing. This will be addressed further in
 ![Screenshot of the lighthouse test for the 404 page in desktop view](docs/benchmarks/404-desktop.jpg)
 
 ### WAVE extension
-* The WAVE extension in Google Chrome was used to spot errors in page design. It falsely detected headings 
+* The WAVE extension in Google Chrome was used to spot errors in page design. It detected a click event that is only present on desktop versions. This should be no issue as it is only used when a cursor is used anyways.<br>
 The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
 The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
 
