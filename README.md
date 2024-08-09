@@ -1,7 +1,6 @@
 
 # Geocaching Adventures
-
-Geocaching Adventures is a homepage about one of Dominik Wulf's favourite hobbies. On this page, he shares some XXXXXX pieces of information about the activity and his adventures. The site features four pages.
+Geocaching Adventures is a homepage about one of Dominik Wulf's favourite hobbies. On this page, he shares some pieces of information about the activity and his adventures. The site features four pages.
 
 The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dominik.github.io/pp1-geocaching/index.html "Test")
 
@@ -12,13 +11,16 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [INHALTSVERZEICHNIS] xxxxxxxxxxxxxxxxxxxxxxxx
 ## **USER EXPERIENCE**
 
 ## Target audience
-* DESCRIPTION
+* Everyone should have the same experience when visiting the website, people who know geocaching and those who do not. The target audience is for people of all ages and ethnicities as this hobby can be picked up by anybody. But especially people who rarely visit nature should be encouraged to get outside and increase their mental and physical health.
 
 ## User's journey
-* DESCRIPTION
+* The user should be welcomed by the frontpage, directly portraying the adventures spirit and maybe even have a laugh because of the photo.
+They should also directly see that there is more to the website by teasing the content below the hero image which states the advantages of geocaching.<br>
+Once the user has an overview of the content, a distinctly coloured button leads them to the adventures one can go on. They should also be able to navigate
+to any other part of the homepage if they have questions for the site owner or want to know more about him. 
 
 ## Intuitive and consistent design
-* DESCRIPTION
+* All pages share the same design and color scheme. In addition to that, the clear divided sections should display a shift in the content.
 
 ---
 
@@ -174,28 +176,28 @@ A form to insert some personal data is presented to each visitor.
 ## **TECHNOLOGIES**
 
 ### HTML
-* HTML (HyperText Markup Language) is used to create the structure of the homepage.
+* HTML (HyperText Markup Language) was used to create the structure of the homepage.
 
 ### CSS
-* All styled are applied by using and linking a CSS (Cascading Style Sheet) file.
+* All styled were applied by using and linking a CSS (Cascading Style Sheet) file.
 
 ### JavaScript
-* JavaScript is used to create the navigation menu and the adventure dropdown buttons.
+* JavaScript was used to create the navigation menu and the adventure dropdown buttons.
 
 ### Visual Studio Code
-* Visual Studio Code is used to clone the GitHub repository, edit the homepage's code and commit / push the results to GitHub.
+* Visual Studio Code was used to clone the GitHub repository, edit the homepage's code and commit / push the results to GitHub.
 
 ### GitHub
-* GitHub is used to store the homepage's files. Everything was deployed using GitHub Pages.
+* GitHub was used to store the homepage's files. Everything was deployed using GitHub Pages.
 
 ### Adobe Photoshop
-* Adobe Photoshop is used to create content images and wireframes.
+* Adobe Photoshop was used to create content images and wireframes.
 
 ### Fontawesome
-* Fontawesome is linked in the homepage's code to include icon files.
+* Fontawesome was linked in the homepage's code to include icon files.
 
 ### Favicon generator
-* [Favicon Generator](https://realfavicongenerator.net/) is used to implement the page's favicon images.
+* [Favicon Generator](https://realfavicongenerator.net/) was used to implement the page's favicon images.
 
 ---
 
