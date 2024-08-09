@@ -322,6 +322,7 @@ main {
     margin-bottom: 0.5rem;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 /* Paddng of image and content area */
