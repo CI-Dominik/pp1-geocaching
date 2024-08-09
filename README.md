@@ -101,15 +101,12 @@ A fracture of the content is already shown in the initial site view as a spoiler
 
 ## Adventures page
 
-### Introduction to adventures
-* The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below.
+### Introduction and sample adventures
+* The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below. There, two sample adventures were added to give a taste of the hobby. Every dropdown menu can be expanded to reveal further details.
 
-![Screenshot of the adventure page's introduction section](docs/adventures-introduction.jpg)
+![Screenshot of the adventure page's introduction section](docs/adventures-page.jpg)
 
-### Sample adventures
-* Two sample adventures of Dominik Wulf. Each section starts with a header picture of the trip and several small photos for each found geocache. In addition, a block of information is presented for each cache.
-
-![Screenshot of the adventure page's sample adventures section](docs/adventures-sample.jpg)
+![Screenshot of the adventure page's sample caches](docs/adventures-caches.jpg)
 
 ---
 
@@ -208,7 +205,10 @@ A form to insert some personal data is presented to each visitor.
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
+| Resizing the browser window    | Navigation menu should trigger and elements should shift     | Expted results were achieved   |
+| Opening Google Chrome's developer tools and changing the size of the frame | The design should shift up to a width of around 250px | Expted results were achieved |
+| Visiting the homepage on own smartphone | Only the mobile view should be present, in landscape and portrait mode | Expted results were achieved |
+| Sending the homepage link to friends and family | The same experience should occur on any of the testing devices | Expted results were achieved |
 
 
 ---
@@ -250,31 +250,30 @@ The adventures page suffered from file sizing. This will be addressed in the [bu
 The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
 The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
 
-
-### Manual testing
-* DESCRIPTION
-
-|Testing method | Expected result | Actual result |
-|:-------------:|:---------------:|:-------------:|
-|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
-
 ---
 
 ## **Functional testing**
 
 ### Navigation links
-* DESCRIPTION
+* The navigation menu should be visible and usable on every page on any device. I tested every part of it on multiple devices and resolutions.
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
+| Visit every page to see if navigation works on all of them | Navigation menu should be present on all sites, even 404 and contact success | Expted results were achieved   |
+| Click on every link in the navigation menu to reach other pages | Links should be clickable and send me to the desired page | Expted results were achieved |
 
 ### Contact form
 * DESCRIPTION
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-|PLACEHOLDER    | PLACEHOLDER     | PLACEHOLDER   |
+| Try to submit the form without any data put in | The text fields should print an error that every one of them needs to be filled out | Expted results were achieved |
+| Try to submit the form with only a text written in the email input element | An error should occur, telling that the email format needs to be used | Expted results were achieved |
+| Entering data and submitting the form correctly | The user should be send to the success page | Expted results were achieved |
+
+![Screenshot of the working text fields in the contact form](docs/contact1.jpg)
+
+![Screenshot of the working email input field in the contact form](docs/contact2.jpg)
 
 ---
 
@@ -289,16 +288,6 @@ The WAVE extension correctly spotted the aria labels that were used for the foot
 * The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
 
 ![Screenshot of the CSS validation](docs/css-validation.jpg)
-
----
-
-## **Unfixed bugs**
-
-### Bugs
-* A bug was found when checking the about page's mobile view in the online version of the homepage with Lighthouse. In some cases, the performance was decreased due to layout shifts.
-
-### Potential fix
-* Adjusting the flow of the about page.
 
 ---
 
