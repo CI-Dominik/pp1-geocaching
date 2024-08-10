@@ -339,7 +339,7 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 ## Bugs
 
 ### Unfixed Bugs
-* In Mozilla Firefox, when shrinking down the browser size, the hero information section gets too narrow. In the futures, this needs to be accessed as the site owner was not able to fix this issue at the moment of final deployment.
+* In Mozilla Firefox, when shrinking down the browser size, the hero information section gets too narrow. In the futures, this needs to be addressed as the site owner was not able to fix this issue at the moment of final deployment.
 
 ![Screenshot of the Mozilla Firefox bug](docs/firefox-bug.jpg)
 
@@ -348,7 +348,7 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 ## **ACCESSIBILITY**
 
 ### Lighthouse testing
-* Lighthouse testing was used to determine the site's proberties regarding performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.<br>
+* Lighthouse testing was used to determine the site's performance, accessibility, best practices and SEO. Special emphasis was layed on performance and accessibility to provide a great user experience for every visitor, no matter the device or conditions.<br>
 
 **Frontpage**
 
@@ -479,22 +479,22 @@ After the deployment, a link to the deployed page can be found on the frontpage 
 
 ## **Credits**
 
-### PicturePeople Leverkusen (photo studio)
+### [PicturePeople Leverkusen](https://www.picturepeople.de/) (photo studio)
 * Photos of me shot by **Daria Lipp**
 
-### Fontawesome
-* Links to several icons
+### [Fontawesome](https://fontawesome.com/)
+* Used to implement website icons
 
-### Techsini
+### [Techsini](https://techsini.com/multi-mockup/index.php)
 * Used to create the mockup in the readme file
 
-### YouTube
-* Several videos for learning
+### [YouTube](https://youtube.com)
+* Videos for learning JavaScript from [BroCode](https://www.youtube.com/@BroCodez)
 
-### Pixabay
+### [Pixabay](https://pixabay.com/)
 * [Jungle photo](https://pixabay.com/de/photos/jungle-bali-wild-dschungel-natur-5046272/) (annawoodie @ Pixabay)
 * [Toolbox photo](https://pixabay.com/de/photos/werkzeuge-werkzeugkasten-3411589/) (Steve Sammon @ Pixabay)
 
-### Pexels
+### [Pexels](https://www.pexels.com/)
 * [Hat photo](https://www.pexels.com/de-de/foto/stadt-mann-gebaude-muster-27065154/) (Masud Allahverdizade @ Pexels)
 * [Dog photo](https://pixabay.com/de/photos/hund-haustier-tier-niedlich-1839808/) (Pexels @ Pixabay)
