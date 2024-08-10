@@ -80,6 +80,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 [**ACCESSIBILTIY**](#accessibility)
   * [Lighthouse testing](#lighthouse-testing)
   * [WAVE extension](#wave-extension)
+  * [Use of font sizes](#use-of-font-sizes)
   * [Goal of accessibility measures](#goal-of-accessibility-measures)
     
 <br>
@@ -392,6 +393,9 @@ The adventures page suffered from file sizing. This will be addressed further in
 * The WAVE extension in Google Chrome was used to spot errors in page design. It detected a click event that is only present on desktop versions. This should be no issue as it is only used when a cursor is used anyways.<br>
 The only other issue was a redundant link to the frontpage in the logo and the navigation bar. As it is common practice to use this approach to web design, I did not address this issue any further.<br>
 The WAVE extension correctly spotted the aria labels that were used for the footer's social media icons. The links also got the rel attribute of noopener to increase website security.
+
+### Use of font sizes
+* Throughout the whole homepage, every element was sized using the rem unit. This way, it is ensured that the experience is the same on any font size setting of the browser. The unit was used to give people who cannot read small texts a better time and feel included.
 
 ### Goal of accessibility measures
 
