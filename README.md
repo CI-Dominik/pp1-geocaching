@@ -205,7 +205,7 @@ A fracture of the content is already shown in the initial site view as a spoiler
 ## Adventures page
 
 ### Introduction and sample adventures
-* The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below. There, two sample adventures were added to give a taste of the hobby. Every dropdown menu can be expanded to reveal further details.
+* The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below. There, two sample adventures were added to give a taste of the hobby. Every dropdown menu can be expanded to reveal further details. The attached arrow rotates by 90 degree once the button is clicked.
 
 ![Screenshot of the adventure page's introduction section](docs/adventures-page.jpg)
 
