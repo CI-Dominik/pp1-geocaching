@@ -266,17 +266,26 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 
 ### Landing page
 
-![Screenshot of the wireframe for the landing page](docs/wireframes/landing-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the landing page](docs/wireframes/landing-mobile-wireframe.jpg)
+
+<br>
+
 ![Screenshot of the wireframe for the landing page](docs/wireframes/landing-wireframe.jpg)
 
 ### Adventures page
 
-![Screenshot of the wireframe for the adventures page](docs/wireframes/adventures-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the adventures page](docs/wireframes/adventures-mobile-wireframe.jpg)
+
+<br>
+
 ![Screenshot of the wireframe for the adventures page](docs/wireframes/adventures-wireframe.jpg)
 
 ### About page
 
-![Screenshot of the wireframe for the about page](docs/wireframes/about-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the about page](docs/wireframes/about-mobile-wireframe.jpg)
+
+<br>
+
 ![Screenshot of the wireframe for the about page](docs/wireframes/about-wireframe.jpg)
 
 ### Contact page
@@ -339,10 +348,19 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 
 ## Bugs
 
-### Unfixed Bugs
+### Unfixed bugs
 * In Mozilla Firefox, when shrinking down the browser size, the hero information section gets too narrow. In the futures, this needs to be addressed as the site owner was not able to fix this issue at the moment of final deployment.
 
+<br>
+
 ![Screenshot of the Mozilla Firefox bug](docs/firefox-bug.jpg)
+
+### Fixed bugs
+* The performance of the adventure page was lacking. This was fixed using the loading="lazy" proberty on the hidden images.
+
+<br>
+
+![Screenshot of the improved adventure page results](docs/performance-increase.jpg)
 
 ---
 
@@ -363,7 +381,11 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 <br><br>
 ![Screenshot of the lighthouse test for the adventures page in desktop view](docs/benchmarks/adventures-desktop.jpg)
 
-The adventures page suffered from file sizing. This will be addressed further in the future.
+* The mobile adventures page suffered from performance issues. This was partially fixed in the end stage of the homepage.
+
+<br>
+
+![Screenshot of the improved adventure page results](docs/performance-increase.jpg)
 
 **About me**
 
