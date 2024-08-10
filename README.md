@@ -49,6 +49,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 <br>
 
 [**DESIGN**](#design)
+  * [Colour choice](#colour-choice)
   * [Wireframes](#wireframes)
     * [Landing page](#landing-page)
     * [Adventures page](#adventures-page-1)
@@ -71,6 +72,8 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 
 [**TESTING**](#testing)
   * [Responsiveness](#responsiveness)
+  * [Used platforms and devices](#used-platforms-and-devices)
+  * [Bugs](#bugs)
     
 <br>
 
@@ -95,7 +98,8 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 
 [**DEPLOYMENT**](#deployment)
   * [Visual Studio Code connection](#visual-studio-code-connection)
-  * [Deployment via Visual Studio Code](#deployment-via-visual-studio-code)
+  * [Cloning, commitig and pushing via Visual Studio Code](#cloning-commiting-and-pushing-via-visual-studio-code)
+  * [Deployment via GitHub Pages](#deployment-via-github-pages)
     
 <br>
 
@@ -249,6 +253,14 @@ A form to insert some personal data is presented to each visitor.
 
 ## **DESIGN**
 
+## Colour choice
+* In the early stages of the development, saturated green colours were used to set a mood for jungle adventures. This was later on revisited to pastel colours to increase the accessibility and overall tone of the homepage. The chosen mint colour should express more calmness and was used to welcome the user.<br>
+The violet tone was supposed to paint a clear contrast to call the user to action.
+
+<br>
+
+![Colour palette of the homepage](docs/colour-palette.jpg)
+
 ## Wireframes
 
 ### Landing page
@@ -312,6 +324,24 @@ A form to insert some personal data is presented to each visitor.
 | Visiting the homepage on own smartphone | Only the mobile view should be present, in landscape and portrait mode | Expted results were achieved |
 | Sending the homepage link to friends and family | The same experience should occur on any of the testing devices | Expted results were achieved |
 
+## Used platforms and devices
+
+### Browsers
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+
+### Smartphones
+* Poco F5 Pro
+* Samsung S21
+* Samsung S23
+
+## Bugs
+
+### Unfixed Bugs
+* In Mozilla Firefox, when shrinking down the browser size, the hero information section gets too narrow. In the futures, this needs to be accessed as the site owner was not able to fix this issue at the moment of final deployment.
+
+![Screenshot of the Mozilla Firefox bug](docs/firefox-bug.jpg)
 
 ---
 
@@ -415,13 +445,35 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 
 ### Visual Studio Code connection
 * A connection between Visual Studio Code and GitHub was established using the built-in function to include the ability to clone, stage, commit and push content directly to GitHub.
+Once you start Visual Studio Code with no connection, you simply need to click on the person icon in the lower left corner and select "GitHub". From there, you can connect your existing account to Visual Studio Code.
 
 ![Screenshot of the menu to connect Visual Studio Code with GitHub](docs/vscode-connection.jpg)
 
-### Deployment via Visual Studio Code
+### Cloning, commiting and pushing via Visual Studio Code
 * Visual Studio code was used to stage all changed files and commit them with an included message directly to GitHub.
 
 ![Screenshot of the menu to commit changes to GitHub](docs/vscode-commit.jpg)
+
+### Deployment via GitHub Pages
+* Once a version that should be visible on the internet has been established, to deploy a page, one needs to visit the GitHub repository that is used to store all data of the project.
+
+![Screenshot of the settings menu in GitHub](docs/deployment4.jpg)
+
+On the top, there is an option that says *Settings*. In this menu, it is possible to deploy the page using the *Pages* sub-menu.
+
+![Screenshot of the settings list with Pages circled](docs/deployment2.jpg)
+
+Once one clicks on the *Pages* sub-menu, a new page will appear. On this one, one can select the branch of the project which contains the main data to deploy to GitHub Pages. In this case, the branch *Main* was used.
+
+![Screenshot of the branch selection in GitHub Pages](docs/deployment3.jpg)
+
+With the right branch selected, the input needs to be saved via the *Save* button.
+
+![Screenshot of the deployed homepage menu](docs/deployment1.jpg)
+
+After the deployment, a link to the deployed page can be found on the frontpage of the GitHub repository. With a click on it to reveal the link that takes the visitor to the live page.
+
+![Screenshot of the live view link](docs/deployment5.jpg)
 
 ---
 
