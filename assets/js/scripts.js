@@ -22,10 +22,15 @@ function openDropdown(dropdownMenu) {
     const clickedAdventure = dropdownMenu.dataset.adventure;
     const clickedButton = dropdownMenu.dataset.button;
     const dropdownElements = document.querySelectorAll(".adventure-dropdown");
+    const dropdownArrow = document.querySelectorAll(".adventure-dropdown-buttons");
     
     for (let i = 0; i < dropdownElements.length; i++) {
         if (dropdownElements[i].dataset.button == clickedButton && dropdownElements[i].dataset.adventure == clickedAdventure) {
             dropdownElements[i].classList.toggle("adventure-dropdown-shown");
+
+            // Add button class to rotate arrow
+
+            dropdownArrow[i].classList.toggle("button-clicked");
         }
     }
 

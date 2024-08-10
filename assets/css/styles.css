@@ -329,6 +329,16 @@ main {
     cursor: pointer;
 }
 
+/* Rotate options for dropdown buttons */
+
+.adventure-dropdown-buttons i {
+    transform: rotate(90deg);
+}
+
+.button-clicked i {
+    transform: rotate(0deg);
+}
+
 /* Paddng of image and content area */
 
 .adventure-content {
