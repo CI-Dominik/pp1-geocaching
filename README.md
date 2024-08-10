@@ -136,16 +136,25 @@ to any other part of the homepage if they have questions for the site owner or w
 * The navigation menu was designed to attract the users to the adventures page. They should get there as soon as possible to experience the main area of the homepage in which I show photos of two sample adventures and of geocaches I found along the way. There is also an indicator on which page the user is currently at. The selected item is underlined.
 In mobile view (width < 48rem), the navigation becomes a burger menu that is collapsible to reveal the hyperlinks. It was created using a self written JavaScript file.
 
-![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)<br>
+<br>
+
+![Screenshot of the page's navigation menu](docs/navigation-menu.jpg)
+
+<br>
+
 ![Screenshot of the page's navigation menu in mobile view](docs/navigation-menu-mobile.jpg)
 
 ### Footer
 * The footer consists of social media links to LinkedIn, Facebook, X, Instagram and Pinterest. All of those links got an aria label to increase the accessibility for impaired users. Also, every link has a rel attribute of "noopener" to prevent security problems.
 
+<br>
+
 ![Screenshot of the page's footer](docs/footer.jpg)
 
 ### Favicons
 * As a favicon, the geocaching logo was used so the user immediately gets the right impression of the content. Icons in different sizes were added to display an icon for every use case. For example as the tab's icon or when the page gets saved as a link on a mobile device.
+
+<br>
 
 ![Screenshot of the page's favicons](docs/favicons.jpg)<br>
 ![Screenshot of the page's favicons](docs/favicons-code.jpg)
@@ -153,10 +162,14 @@ In mobile view (width < 48rem), the navigation becomes a burger menu that is col
 ### Contact success page
 * A page dedicated to inform the user of a successful form transmission was added. It leads the visitor back to the frontpage after a delay of five seconds.
 
+<br>
+
 ![Screenshot of the contact success page](docs/contact-success.jpg)
 
 ### 404 page
 * A 404 page was added to inform the user when a page cannot be found. It also features the navigation and footer bar to lead the user back to another page of the site.
+
+<br>
 
 ![Screenshot of the page's 404 page](docs/404.jpg)
 
@@ -168,16 +181,22 @@ In mobile view (width < 48rem), the navigation becomes a burger menu that is col
 * The hero section of the homepage is meant to attract the user's attention. A picture of Dominik Wulf is shown on the right side. He is wearing a safari outfit to set the theme and mood for adventures and create something to laugh at.<br>
 An additional information section describes the content the user will see on the page. A call to action button is placed to immediately lead the user to the adventures site.
 
+<br>
+
 ![Screenshot of the landing page's hero image](docs/hero-section.jpg)
 
 ### Benefits section
 * Just below the hero section lies a list of benefits geocaching provides to encourage people to also pick up the hobby and increase their health.<br>
 A fracture of the content is already shown in the initial site view as a spoiler to imply that more content awaits on the frontpage.
 
+<br>
+
 ![Screenshot of the landing page's benefits section](docs/benefits-section.jpg)
 
 ### Geocaching explanation
 * In this section, the user can gather additional pieces of information about the activity. Also, they should get an insight if it is the right hobby for them as well. Some convincing facts should lead the user to starting the geocaching journey.
+
+<br>
 
 ![Screenshot of the landing page's geocaching explanation](docs/geocaching-explanation.jpg)
 
@@ -188,15 +207,21 @@ A fracture of the content is already shown in the initial site view as a spoiler
 ### Author information
 * A photo displaying Dominik Wulf holding a geocaching items for comedic effect and a text describing him as a person. In addition to the general geocaching infos, the user should get an impresson of the site owner's personal life to strenghten the human bond.
 
+<br>
+
 ![Screenshot of the about page's author information](docs/author-information.jpg)
 
 ### Geocaching statistics
 * An overview of Dominik Wulf's personal adventure statistics, showing the total tours, found geocaches and missed geocaches. This way, the user gets a brief overview of the scale of the hobby and time spent.
 
+<br>
+
 ![Screenshot of the about page's geoaching statistics](docs/geocaching-statistics.jpg)
 
 ### Fun facts
 * Some fun facts about the site owner as an entertaining addition.
+
+<br>
 
 ![Screenshot of the about page's fun facts section](docs/fun-facts.jpg)
 
@@ -206,6 +231,8 @@ A fracture of the content is already shown in the initial site view as a spoiler
 
 ### Introduction and sample adventures
 * The user gets welcomed on the adventure page and is offered to join in on the taken adventures listed further down below. There, two sample adventures were added to give a taste of the hobby. Every dropdown menu can be expanded to reveal further details. The attached arrow rotates by 90 degree once the button is clicked.
+
+<br>
 
 ![Screenshot of the adventure page's introduction section](docs/adventures-page.jpg)
 
@@ -224,6 +251,8 @@ A form to insert some personal data is presented to each visitor.
   * The personal message is a required textarea for submitting a message
   * The send button is used to send the data to contact-success.html
     * The success page will direct the user back to the frontpage after five seconds
+
+<br>
 
 ![Screenshot of the contact page's text and form](docs/contact-page.jpg)
 
@@ -290,7 +319,10 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 
 ### Contact page
 
-![Screenshot of the wireframe for the contact page](docs/wireframes/contact-mobile-wireframe.jpg)<br><br>
+![Screenshot of the wireframe for the contact page](docs/wireframes/contact-mobile-wireframe.jpg)
+
+<br>
+
 ![Screenshot of the wireframe for the contact page](docs/wireframes/contact-wireframe.jpg)
 
 ---
@@ -455,10 +487,14 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 ### HTML validator
 * All pages were checked for their HTML structure by the W3C Markup Validation Service. No document showed any errors.
 
+<br>
+
 ![Screenshot of the HTML validation](docs/html-validation.jpg)
 
 ### CSS validator
 * The stylesheet file was checked via the W3C CSS Validation Service. No errors were found.
+
+<br>
 
 ![Screenshot of the CSS validation](docs/css-validation.jpg)
 
@@ -470,31 +506,45 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 * A connection between Visual Studio Code and GitHub was established using the built-in function to include the ability to clone, stage, commit and push content directly to GitHub.
 Once you start Visual Studio Code with no connection, you simply need to click on the person icon in the lower left corner and select "GitHub". From there, you can connect your existing account to Visual Studio Code.
 
+<br>
+
 ![Screenshot of the menu to connect Visual Studio Code with GitHub](docs/vscode-connection.jpg)
 
 ### Cloning, commiting and pushing via Visual Studio Code
 * Visual Studio code was used to stage all changed files and commit them with an included message directly to GitHub.
+
+<br>
 
 ![Screenshot of the menu to commit changes to GitHub](docs/vscode-commit.jpg)
 
 ### Deployment via GitHub Pages
 * Once a version that should be visible on the internet has been established, to deploy a page, one needs to visit the GitHub repository that is used to store all data of the project.
 
+<br>
+
 ![Screenshot of the settings menu in GitHub](docs/deployment4.jpg)
 
 On the top, there is an option that says *Settings*. In this menu, it is possible to deploy the page using the *Pages* sub-menu.
+
+<br>
 
 ![Screenshot of the settings list with Pages circled](docs/deployment2.jpg)
 
 Once one clicks on the *Pages* sub-menu, a new page will appear. On this one, one can select the branch of the project which contains the main data to deploy to GitHub Pages. In this case, the branch *Main* was used.
 
+<br>
+
 ![Screenshot of the branch selection in GitHub Pages](docs/deployment3.jpg)
 
 With the right branch selected, the input needs to be saved via the *Save* button.
 
+<br>
+
 ![Screenshot of the deployed homepage menu](docs/deployment1.jpg)
 
 After the deployment, a link to the deployed page can be found on the frontpage of the GitHub repository. With a click on it to reveal the link that takes the visitor to the live page.
+
+<br>
 
 ![Screenshot of the live view link](docs/deployment5.jpg)
 
