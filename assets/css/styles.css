@@ -582,18 +582,18 @@ main {
 
 /* 404 PAGE STYLING */
 
-#not-found-main {
+#not-found-main, #success-main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
 
-#not-found-spacing {
+#not-found-spacing, #success-spacing {
     height: 13rem;
     width: 100%;
 }
 
-#not-found-content {
+#not-found-content, #success-content {
     display: flex;
     flex-flow: column nowrap;
     flex: 1 1 25rem;
@@ -609,11 +609,11 @@ main {
     margin-bottom: 2rem;
 }
 
-#not-found-content h1 {
+#not-found-content h1, #success-content h1 {
     margin: 3rem 0;
 }
 
-#not-found-image {
+#not-found-image, #success-image {
     position: absolute;
     max-width: 15rem;
     max-height: 15rem;
