@@ -1,151 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <!-- Meta Data -->
-
-    <meta charset="UTF-8">
-    <meta name="author" content="Dominik Wulf">
-    <meta name="keywords" content="geocaching, geo, caching, adventures, adventure, hobby">
-    <meta name="description" content="Dominik Wulf's geocaching adventures in natural and urban areas">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Geocaching Adventures</title>
-
-    <!-- CSS Link -->
-
-    <link rel="stylesheet" href="assets/css/styles.css">
     
-    <!-- Favicons -->
+    <head>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+        <!-- Meta Data -->
 
-</head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dominik Wulf">
+        <meta name="keywords" content="geocaching, geo, caching, adventures, adventure, hobby">
+        <meta name="description" content="Dominik Wulf's geocaching adventures in natural and urban areas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<body>
+        <title>Geocaching Adventures</title>
 
-    <!-- Header Start -->
+        <!-- CSS Link -->
 
-    <header>
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!-- Favicons -->
 
-        <a href="index.html">Geocaching Adventures</a>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicons/site.webmanifest">
+        <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
 
-        <!-- Desktop Navigation Menu -->
+    </head>
 
-        <nav id="desktop-nav">
+    <body>
 
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About me</a>
-            <a href="contact.html" class="nav-link active-link">Contact</a>
-            <a href="adventures.html" class="nav-adventure">Adventures</a>
+        <!-- Header Start -->
 
+        <header>
+
+            <a href="index.html">Geocaching Adventures</a>
+
+            <!-- Desktop Navigation Menu -->
+
+            <nav id="desktop-nav">
+
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About me</a>
+                <a href="contact.html" class="nav-link active-link">Contact</a>
+                <a href="adventures.html" class="nav-adventure">Adventures</a>
+
+            </nav>
+
+            <!-- Dropdown Menu Icon -->
+
+            <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+
+        </header>
+
+        <!-- Mobile Navigation Menu -->
+
+        <nav id="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="adventures.html">Adventures</a>
+            <a href="about.html">About me</a>
+            <a href="contact.html" class="active-link">Contact</a>
         </nav>
 
-        <!-- Dropdown Menu Icon -->
+        <!-- Header End -->
 
-        <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+        <!-- Main Area Start -->
 
-    </header>
+        <main id="contact-main">
 
-    <!-- Mobile Navigation Menu -->
+            <!-- Overarching wrapper -->
 
-    <nav id="mobile-nav">
-        <a href="index.html">Home</a>
-        <a href="adventures.html">Adventures</a>
-        <a href="about.html">About me</a>
-        <a href="contact.html" class="active-link">Contact</a>
-    </nav>
+            <section id="contact-wrapper">
 
-    <!-- Header End -->
+                <!-- Contact Fnformation and Image Start -->
 
-    <!-- Main Area Start -->
+                <div id="contact-information">
+                    <img src="assets/images/contact-image.webp" alt="Picture of website owner">
+                    <h1>Contact me</h1>
+                    <p>
+                        You have a question regarding my homepage or just want to get in touch?<br>
+                        Feel free to leave me a message and I will get back to you as soon as possible!
+                    </p>
+                </div>
 
-    <main id="contact-main">
+                <!-- Contact Fnformation and Image End -->
 
-        <!-- Overarching wrapper -->
+                <!-- Form Start -->
+                
+                <div id="form-wrapper">
 
-        <section id="contact-wrapper">
+                    <form action="contact-success.html" id="contact-form">
 
-            <!-- Contact information and image -->
+                        <!-- Heading -->
 
-            <div id="contact-information">
-                <img src="assets/images/contact-image.webp" alt="Picture of website owner">
-                <h1>Contact me</h1>
-                <p>
-                    You have a question regarding my homepage or just want to get in touch?<br>
-                    Feel free to leave me a message and I will get back to you as soon as possible!
-                </p>
-            </div>
+                        <h2>Please tell me who you are</h2>
 
-            <!-- Form Start -->
-             
-            <div id="form-wrapper">
+                        <!-- Input fields -->
 
-                <form action="contact-success.html" id="contact-form">
+                        <label for="first-name">First name:</label>
+                        <input type="text" name="first-name" id="first-name" class="text-input" required>
+                        <br>
+                        <label for="last-name">Last name:</label>
+                        <input type="text" name="last-name" id="last-name" class="text-input" required>
+                        <br>
+                        <label for="email-address">Email address:</label>
+                        <input type="email" name="email-address" id="email-address" class="text-input" required>
+                        <br>
 
-                    <!-- Heading -->
+                        <label for="text-message">Enter your message:</label><br>
+                        <textarea id="text-message" name="text-message" rows="6" cols="50" required></textarea><br>
 
-                    <h2>Please tell me who you are</h2>
+                        <!-- Submit button -->
 
-                    <!-- Input fields -->
+                        <input type="submit" value="Send" class="join-button">
 
-                    <label for="first-name">First name:</label>
-                    <input type="text" name="first-name" id="first-name" class="text-input" required>
-                    <br>
-                    <label for="last-name">Last name:</label>
-                    <input type="text" name="last-name" id="last-name" class="text-input" required>
-                    <br>
-                    <label for="email-address">Email address:</label>
-                    <input type="email" name="email-address" id="email-address" class="text-input" required>
-                    <br>
+                    </form>
 
-                    <label for="text-message">Enter your message:</label><br>
-                    <textarea id="text-message" name="text-message" rows="6" cols="50" required></textarea><br>
+                </div>
 
-                    <!-- Submit button -->
+                <!-- Form End -->
 
-                    <input type="submit" value="Send" class="join-button">
+            </section>
 
-                </form>
+        </main>
 
-            </div>
+        <!-- Main Area End -->
 
-            <!-- Form End -->
+        <!-- Footer Start -->
 
-        </section>
+        <footer>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Link to LinkedIn (Opens in new tab)"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Link to Facebook (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Link to X (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Link to Instagram (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Link to Pinterest (Opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
+        </footer>
+        
+        <!-- Footer End -->
 
-    </main>
+        <!-- Fontawesome Import -->
 
-    <!-- Main Area End -->
+        <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous" defer></script>
 
-    <!-- Footer Start -->
+        <!-- JavaScript file Import -->
 
-    <footer>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Link to LinkedIn (Opens in new tab)"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Link to Facebook (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Link to X (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Link to Instagram (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Link to Pinterest (Opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
-    </footer>
-    
-    <!-- Footer End -->
+        <script src="assets/js/scripts.js" defer></script>
 
-    <!-- Fontawesome Import -->
-
-    <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous" defer></script>
-
-    <!-- JavaScript file Import -->
-
-    <script src="assets/js/scripts.js" defer></script>
-
-</body>
+    </body>
 
 </html>
