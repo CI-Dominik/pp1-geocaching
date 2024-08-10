@@ -318,9 +318,6 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 ### Fontawesome
 * Fontawesome was linked in the homepage's code to include icon files.
 
-### Favicon generator
-* [Favicon Generator](https://realfavicongenerator.net/) was used to implement the page's favicon images.
-
 ---
 
 ## **TESTING**
@@ -329,10 +326,10 @@ The violet tone was supposed to paint a clear contrast to call the user to actio
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-| Resizing the browser window    | Navigation menu should trigger and elements should shift     | Expted results were achieved   |
-| Opening Google Chrome's developer tools and changing the size of the frame | The design should shift up to a width of around 250px | Expted results were achieved |
-| Visiting the homepage on own smartphone | Only the mobile view should be present, in landscape and portrait mode | Expted results were achieved |
-| Sending the homepage link to friends and family | The same experience should occur on any of the testing devices | Expted results were achieved |
+| Resizing the browser window    | Navigation menu should trigger and elements should shift     | Expected results were achieved   |
+| Opening Google Chrome's developer tools and changing the size of the frame | The design should shift up to a width of around 250px | Expected results were achieved |
+| Visiting the homepage on own smartphone | Only the mobile view should be present, in landscape and portrait mode | Expected results were achieved |
+| Sending the homepage link to friends and family | The same experience should occur on any of the testing devices | Expected results were achieved |
 
 ## Used platforms and devices
 
@@ -435,17 +432,17 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-| Visit every page to see if navigation works on all of them | Navigation menu should be present on all sites, even 404 and contact success | Expted results were achieved   |
-| Click on every link in the navigation menu to reach other pages | Links should be clickable and send me to the desired page | Expted results were achieved |
+| Visit every page to see if navigation works on all of them | Navigation menu should be present on all sites, even 404 and contact success | Expected results were achieved   |
+| Click on every link in the navigation menu to reach other pages | Links should be clickable and send me to the desired page | Expected results were achieved |
 
 ### Contact form
 * The contact form should only be sendable once every piece of information is entered correctly. Afterwards, the user should be sent to a success page.
 
 |Testing method | Expected result | Actual result |
 |:-------------:|:---------------:|:-------------:|
-| Try to submit the form without any data put in | The text fields should print an error that every one of them needs to be filled out | Expted results were achieved |
-| Try to submit the form with only a text written in the email input element | An error should occur, telling that the email format needs to be used | Expted results were achieved |
-| Entering data and submitting the form correctly | The user should be send to the success page | Expted results were achieved |
+| Try to submit the form without any data put in | The text fields should print an error that every one of them needs to be filled out | Expected results were achieved |
+| Try to submit the form with only a text written in the email input element | An error should occur, telling that the email format needs to be used | Expected results were achieved |
+| Entering data and submitting the form correctly | The user should be send to the success page | Expected results were achieved |
 
 ![Screenshot of the working text fields in the contact form](docs/contact1.jpg)
 
@@ -506,16 +503,19 @@ After the deployment, a link to the deployed page can be found on the frontpage 
 ## **Credits**
 
 ### [PicturePeople Leverkusen](https://www.picturepeople.de/) (photo studio)
-* Photos of me shot by **Daria Lipp**
+* Photos of me shot by **Daria Lipp**.
 
 ### [Fontawesome](https://fontawesome.com/)
-* Used to implement website icons
+* Used to implement website icons.
 
 ### [Techsini](https://techsini.com/multi-mockup/index.php)
-* Used to create the mockup in the readme file
+* Used to create the mockup in the readme file.
+
+### [Favicon Generator](https://realfavicongenerator.net/)
+* Used to generate favicons for the homepage.
 
 ### [YouTube](https://youtube.com)
-* Videos for learning JavaScript from [BroCode](https://www.youtube.com/@BroCodez)
+* Videos for learning JavaScript from [BroCode](https://www.youtube.com/@BroCodez).
 
 ### [Pixabay](https://pixabay.com/)
 * [Jungle photo](https://pixabay.com/de/photos/jungle-bali-wild-dschungel-natur-5046272/) (annawoodie @ Pixabay)
