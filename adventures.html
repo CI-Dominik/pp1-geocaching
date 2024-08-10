@@ -1,325 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
-    <!-- Meta Data -->
+    <head>
 
-    <meta charset="UTF-8">
-    <meta name="author" content="Dominik Wulf">
-    <meta name="keywords" content="geocaching, geo, caching, adventures, adventure, hobby">
-    <meta name="description" content="Dominik Wulf's geocaching adventures in natural and urban areas">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Meta Data -->
 
-    <title>Geocaching Adventures</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Dominik Wulf">
+        <meta name="keywords" content="geocaching, geo, caching, adventures, adventure, hobby">
+        <meta name="description" content="Dominik Wulf's geocaching adventures in natural and urban areas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS Link -->
+        <title>Geocaching Adventures</title>
 
-    <link rel="stylesheet" href="assets/css/styles.css">
-    
-    <!-- Favicons -->
+        <!-- CSS Link -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!-- Favicons -->
 
-</head>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicons/site.webmanifest">
+        <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
 
-<body>
+    </head>
 
-    <!-- Header Start -->
+    <body>
 
-    <header>
+        <!-- Header Start -->
 
-        <a href="index.html">Geocaching Adventures</a>
+        <header>
 
-        <!-- Desktop Navigation Menu -->
+            <a href="index.html">Geocaching Adventures</a>
 
-        <nav id="desktop-nav">
+            <!-- Desktop Navigation Menu -->
 
-            <a href="index.html" class="nav-link">Home</a>
-            <a href="about.html" class="nav-link">About me</a>
-            <a href="contact.html" class="nav-link">Contact</a>
-            <a href="adventures.html" class="nav-adventure active-link">Adventures</a>
+            <nav id="desktop-nav">
 
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About me</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="adventures.html" class="nav-adventure active-link">Adventures</a>
+
+            </nav>
+
+            <!-- Dropdown Menu Icon -->
+
+            <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+
+        </header>
+
+        <!-- Mobile Navigation Menu -->
+
+        <nav id="mobile-nav">
+            <a href="index.html">Home</a>
+            <a href="adventures.html" class="active-link">Adventures</a>
+            <a href="about.html">About me</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
-        <!-- Dropdown Menu Icon -->
+        <!-- Header End -->
 
-        <i class="fa-solid fa-bars" id="dropdown-icon"></i>
+        <!-- Main Area Start -->
 
-    </header>
+        <main id="adventure-main">
 
-    <!-- Mobile Navigation Menu -->
+            <!-- Overarching Content Wrapper Start -->
 
-    <nav id="mobile-nav">
-        <a href="index.html">Home</a>
-        <a href="adventures.html" class="active-link">Adventures</a>
-        <a href="about.html">About me</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+            <div id="wrapper">
 
-    <!-- Header End -->
+                <!-- Hero Start -->
 
-    <!-- Main Area Start -->
+                <section id="adventure-hero">
+                    <h1>My adventures</h1>
+                </section>
 
-    
+                <div id="adventure-hero-info">
+                    <p>
+                        Welcome to my geocaching adventures. Here you see some
+                        of my recent trips. Come join me on my way and let's
+                        have a great time together!
+                    </p>
+                </div>
 
-    <main id="adventure-main">
+                <!-- Hero End -->
 
+                <!-- Adventure 1 Start -->
+
+                <section class="adventure">
+
+                    <!-- Adventure header image -->
+
+                    <h2>Adventure 1 - The town of Meerbusch</h2>
+
+                    <div class="adventure-image">
+                        <img src="assets/images/adventure1/header-adventure1.webp" class="geo-header-image" alt="A photo of a landscape in Meerbusch">
+                    </div>
+
+                    <!-- Adventure buttons and content -->
+
+                    <div class="adventure-content">
+
+                        <!-- Button 1 -->
+
+                        <div data-adventure="1" data-button="1" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 1 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="1" data-button="1">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure1/cache1-1.webp" loading="lazy" class="geo-image" alt="A photo of a snail on a leave">
+                                <img src="assets/images/adventure1/cache1-2.webp" loading="lazy" class="geo-image" alt="A photo of the first found geocache">
+                                <img src="assets/images/adventure1/cache1-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf holding a geocache">
+                            </div>
+                            <div class="adventure-content-container">
+                                My girlfriend and I started our tour in Meerbusch in North Rhine-Westphalia. The first cache was hidden behind a stone fence, hidden beneath a bush.<br>
+                                We tried to avoid people seeing us, luckily, it was a cloudy day with not many people around. The so called 'muggles', people who do not know what<br>
+                                geocaching is, are not allowed to see us as the cache could be damaged by them.
+                            </div>
+                        </div>
+
+                        <!-- Button 2 -->
+
+                        <div data-adventure="1" data-button="2" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 2 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="1" data-button="2">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure1/cache2-1.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf writing in the geocachine log">
+                                <img src="assets/images/adventure1/cache2-2.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf putting back the log">
+                                <img src="assets/images/adventure1/cache2-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf taking a picture of the train station">
+                            </div>
+                            <div class="adventure-content-container">
+                                The next cache was hidden underneath a rock next to the train tracks coming from the station next to us.<br>
+                                It was a "petling". A PET bottle that was not blown in shape yet. Those are common containers to hide geocaches in.<br>
+                                When we were done, I took a photo of the train station to mark the start of our journey.
+                            </div>
+                        </div>
+
+                        <!-- Button 3 -->
+
+                        <div data-adventure="1" data-button="3" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 3 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="1" data-button="3">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure1/cache3-1.webp" loading="lazy" class="geo-image" alt="A photo of the geocache at a lamp post">
+                                <img src="assets/images/adventure1/cache3-2.webp" loading="lazy" class="geo-image" alt="A photo of the geocache and signed log">
+                                <img src="assets/images/adventure1/cache3-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf putting back the geocache">
+                            </div>
+                            <div class="adventure-content-container">
+                                Some people think that the famous containers for old camera films serve no purpose anymore.<br>
+                                Geocachers see this a bit different. This was shown with our next cache that was hidden in one of those containers.<br>
+                                It was well hidden in a hedge at the edge of the road. It was right in the middle of an open field for everyone<br>
+                                to see us. Luckily, nobody noticed us.
+                            </div>
+                        </div>
+
+                        <!-- Button 4 -->
+
+                        <div data-adventure="1" data-button="4" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 4 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="1" data-button="4">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure1/cache4-1.webp" loading="lazy" class="geo-image" alt="A photo of a girl riding on a field">
+                                <img src="assets/images/adventure1/cache4-2.webp" loading="lazy" class="geo-image" alt="A photo of the post the geocache was hidden in">
+                                <img src="assets/images/adventure1/cache4-3.webp" loading="lazy" class="geo-image" alt="A photo of the inside of the post">
+                            </div>
+                            <div class="adventure-content-container">
+                                As we found the next "petling" in a pole standing right next to the walkway, we were able to watch a girl<br>
+                                riding on her horse on the field. Quite a nice sight in these great weather conditions.<br>
+                                Another geocache was found and logged.
+                            </div>
+                        </div>
+
+                        <!-- Button 5 -->
+
+                        <div data-adventure="1" data-button="5" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 5 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="1" data-button="5">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure1/cache5-1.webp" loading="lazy" class="geo-image" alt="A photo of two ice cream buckets held by Dominik Wulf and his girlfriend">
+                                <img src="assets/images/adventure1/cache5-2.webp" loading="lazy" class="geo-image" alt="A photo of the geocache attached to the bottom of the bench">
+                                <img src="assets/images/adventure1/cache5-3.webp" loading="lazy" class="geo-image" alt="A photo of the landscaped viewed from the bench">
+                            </div>
+                            <div class="adventure-content-container">
+                                When the small trip slowly came to its end, we rested on a bench and took in a breath of fresh air.<br>
+                                Right under our bench, we found the last geocache of the trip, attached to the bench itself.<br>
+                                After the tour, we headed to our favourite ice cream parlor and enjoyed our deserved reward.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Adventure 1 End -->
+
+                <!-- Adventure 2 Start -->
+
+                <section class="adventure">
+
+                    <!-- Adventure header image -->
+
+                    <h2>Adventure 2 - Small trip in Solingen</h2>
+
+                    <div class="adventure-image">
+                        <img src="assets/images/adventure2/header-adventure2.webp" class="geo-header-image" alt="A photo of the geocaching location in Solingen">
+                    </div>
+
+                    <!-- Adventure buttons and content -->
+
+                    <div class="adventure-content">
+
+                        <!-- Button 1 -->
+
+                        <div data-adventure="2" data-button="1" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 1 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="2" data-button="1">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure2/cache1-1.webp" loading="lazy" class="geo-image" alt="A photo of the hidden acorn cache">
+                                <img src="assets/images/adventure2/cache1-2.webp" loading="lazy" class="geo-image" alt="A photo of the acorn cache">
+                                <img src="assets/images/adventure2/cache1-3.webp" loading="lazy" class="geo-image" alt="A photo of the brush where the cache was hidden">
+                            </div>
+                            <div class="adventure-content-container">
+                                The start of our second adventure in Solingen began with qutie a laugh. When we took a look at the title of the cache, it<br>
+                                said "Scrat's winter supplies". Once we found the geocache, we knew where the name came from. The log was hidden<br>
+                                in a big acorn. We fought our way back through the brush and only got cut by sharp twigs twice!
+                            </div>
+                        </div>
+
+                        <!-- Button 2 -->
+
+                        <div data-adventure="2" data-button="2" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 2 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="2" data-button="2">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure2/cache2-1.webp" loading="lazy" class="geo-image" alt="A photo of a quiet street">
+                                <img src="assets/images/adventure2/cache2-2.webp" loading="lazy" class="geo-image" alt="A photo of a roundabout with a tree in the middle">
+                                <img src="assets/images/adventure2/cache2-3.webp" loading="lazy" class="geo-image" alt="A photo of the geocache hidden behind a traffic sign">
+                            </div>
+                            <div class="adventure-content-container">
+                                We went into an idyllic part of the city with lots of green around us. Why breath exhaust gases when you can<br>
+                                enjoy a refreshing trip in the nature. Hidden behind a traffic sign, we found a pretty well hidden "petling".<br>
+                                Some of those have magnets attached to them so they can be hidden in the most crazy places.<br>
+                                This one was wrapped in grey tape. Probably to protect it from rain and other influences.
+                            </div>
+                        </div>
+
+                        <!-- Button 3 -->
+
+                        <div data-adventure="2" data-button="3" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 3 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="2" data-button="3">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure2/cache3-1.webp" loading="lazy" class="geo-image" alt="A photo of the traffic sign where another cache was hidden">
+                                <img src="assets/images/adventure2/cache3-2.webp" loading="lazy" class="geo-image" alt="A photo of the roundabout where the sign is located">
+                            </div>
+                            <div class="adventure-content-container">
+                                We started to recognize a pattern, as the next cache was also hidden behind a walkway traffice sign.<br>
+                                In some cases, people hide many geocaches in one area of the town and even place them in similar places<br>
+                                or adjust the container of the caches to be identical. As we already knew what awaited us, this geocache<br>
+                                was found pretty quickly and added to our logs.
+                            </div>
+                        </div>
+
+                        <!-- Button 4-->
+
+                        <div data-adventure="2" data-button="4" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 4 <i class="fa-solid fa-caret-down"></i></h3></div>
+
+                        <div class="adventure-dropdown" data-adventure="2" data-button="4">
+                            <div class="adventure-image-container">
+                                <img src="assets/images/adventure2/cache4-1.webp" loading="lazy" class="geo-image" alt="A photo of a wooden bridge">
+                                <img src="assets/images/adventure2/cache4-2.webp" loading="lazy" class="geo-image" alt="A photo of a street viewed from the wooden bridge">
+                                <img src="assets/images/adventure2/cache4-3.webp" loading="lazy" class="geo-image" alt="A photo of the houses in the area">
+                            </div>
+                            <div class="adventure-content-container">
+                                The last cache on this tour was sadly a missed one. It was said to be hidden under a wooden bridge connecting to streets,<br>
+                                but sadly it seemingly was stolen or damaged. In cases like that, the owner of the cache needs to be informed to take<br>
+                                a look at the spot where they hid it. We still were able to enjoy the cozy area with beautiful houses all around.
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Adventure 2 End -->
+
+            </div>
+
+            <!-- Overarching Content Wrapper End -->
+
+        </main>
+
+        <!-- Main Area End -->
+
+        <!-- Footer Start -->
+
+        <footer>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Link to LinkedIn (Opens in new tab)"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Link to Facebook (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Link to X (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Link to Instagram (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Link to Pinterest (Opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
+        </footer>
         
+        <!-- Footer End -->
 
-        <!-- Overarching content wrapper -->
+        <!-- Fontawesome Import -->
 
-        <section id="wrapper">
+        <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous" defer></script>
 
-            <!-- Hero Start -->
+        <!-- JavaScript file Import -->
 
-            <div id="adventure-hero">
-                <h1>My adventures</h1>
-            </div>
+        <script src="assets/js/scripts.js" defer></script>
 
-            <div id="adventure-hero-info">
-                <p>
-                    Welcome to my geocaching adventures. Here you see some
-                    of my recent trips. Come join me on my way and let's
-                    have a great time together!
-                </p>
-            </div>
-
-            <!-- Hero End -->
-
-            <!-- Adventure 1 Start -->
-
-           <div class="adventure">
-
-                <!-- Adventure header image -->
-
-                <h2>Adventure 1 - The town of Meerbusch</h2>
-
-                <div class="adventure-image">
-                    <img src="assets/images/adventure1/header-adventure1.webp" class="geo-header-image" alt="A photo of a landscape in Meerbusch">
-                </div>
-
-                <!-- Adventure buttons and content -->
-
-                <div class="adventure-content">
-
-                    <!-- Button 1 -->
-
-                    <div data-adventure="1" data-button="1" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 1 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                    <div class="adventure-dropdown" data-adventure="1" data-button="1">
-                        <div class="adventure-image-container">
-                            <img src="assets/images/adventure1/cache1-1.webp" loading="lazy" class="geo-image" alt="A photo of a snail on a leave">
-                            <img src="assets/images/adventure1/cache1-2.webp" loading="lazy" class="geo-image" alt="A photo of the first found geocache">
-                            <img src="assets/images/adventure1/cache1-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf holding a geocache">
-                        </div>
-                        <div class="adventure-content-container">
-                            My girlfriend and I started our tour in Meerbusch in North Rhine-Westphalia. The first cache was hidden behind a stone fence, hidden beneath a bush.<br>
-                            We tried to avoid people seeing us, luckily, it was a cloudy day with not many people around. The so called 'muggles', people who do not know what<br>
-                            geocaching is, are not allowed to see us as the cache could be damaged by them.
-                        </div>
-                    </div>
-
-                    <!-- Button 2 -->
-
-                    <div data-adventure="1" data-button="2" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 2 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                    <div class="adventure-dropdown" data-adventure="1" data-button="2">
-                        <div class="adventure-image-container">
-                            <img src="assets/images/adventure1/cache2-1.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf writing in the geocachine log">
-                            <img src="assets/images/adventure1/cache2-2.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf putting back the log">
-                            <img src="assets/images/adventure1/cache2-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf taking a picture of the train station">
-                        </div>
-                        <div class="adventure-content-container">
-                            The next cache was hidden underneath a rock next to the train tracks coming from the station next to us.<br>
-                            It was a "petling". A PET bottle that was not blown in shape yet. Those are common containers to hide geocaches in.<br>
-                            When we were done, I took a photo of the train station to mark the start of our journey.
-                        </div>
-                    </div>
-
-                    <!-- Button 3 -->
-
-                    <div data-adventure="1" data-button="3" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 3 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                    <div class="adventure-dropdown" data-adventure="1" data-button="3">
-                        <div class="adventure-image-container">
-                            <img src="assets/images/adventure1/cache3-1.webp" loading="lazy" class="geo-image" alt="A photo of the geocache at a lamp post">
-                            <img src="assets/images/adventure1/cache3-2.webp" loading="lazy" class="geo-image" alt="A photo of the geocache and signed log">
-                            <img src="assets/images/adventure1/cache3-3.webp" loading="lazy" class="geo-image" alt="A photo of Dominik Wulf putting back the geocache">
-                        </div>
-                        <div class="adventure-content-container">
-                            Some people think that the famous containers for old camera films serve no purpose anymore.<br>
-                            Geocachers see this a bit different. This was shown with our next cache that was hidden in one of those containers.<br>
-                            It was well hidden in a hedge at the edge of the road. It was right in the middle of an open field for everyone<br>
-                            to see us. Luckily, nobody noticed us.
-                        </div>
-                    </div>
-
-                    <!-- Button 4 -->
-
-                    <div data-adventure="1" data-button="4" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 4 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                    <div class="adventure-dropdown" data-adventure="1" data-button="4">
-                        <div class="adventure-image-container">
-                            <img src="assets/images/adventure1/cache4-1.webp" loading="lazy" class="geo-image" alt="A photo of a girl riding on a field">
-                            <img src="assets/images/adventure1/cache4-2.webp" loading="lazy" class="geo-image" alt="A photo of the post the geocache was hidden in">
-                            <img src="assets/images/adventure1/cache4-3.webp" loading="lazy" class="geo-image" alt="A photo of the inside of the post">
-                        </div>
-                        <div class="adventure-content-container">
-                            As we found the next "petling" in a pole standing right next to the walkway, we were able to watch a girl<br>
-                            riding on her horse on the field. Quite a nice sight in these great weather conditions.<br>
-                            Another geocache was found and logged.
-                        </div>
-                    </div>
-
-                    <!-- Button 5 -->
-
-                    <div data-adventure="1" data-button="5" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 5 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                    <div class="adventure-dropdown" data-adventure="1" data-button="5">
-                        <div class="adventure-image-container">
-                            <img src="assets/images/adventure1/cache5-1.webp" loading="lazy" class="geo-image" alt="A photo of two ice cream buckets held by Dominik Wulf and his girlfriend">
-                            <img src="assets/images/adventure1/cache5-2.webp" loading="lazy" class="geo-image" alt="A photo of the geocache attached to the bottom of the bench">
-                            <img src="assets/images/adventure1/cache5-3.webp" loading="lazy" class="geo-image" alt="A photo of the landscaped viewed from the bench">
-                        </div>
-                        <div class="adventure-content-container">
-                            When the small trip slowly came to its end, we rested on a bench and took in a breath of fresh air.<br>
-                            Right under our bench, we found the last geocache of the trip, attached to the bench itself.<br>
-                            After the tour, we headed to our favourite ice cream parlor and enjoyed our deserved reward.
-                        </div>
-                    </div>
-
-                </div>
-
-           </div>
-
-           <!-- Adventure 1 End -->
-
-           
-           <!-- Adventure 2 Start -->
-
-           <div class="adventure">
-
-            <!-- Adventure header image -->
-
-            <h2>Adventure 2 - Small trip in Solingen</h2>
-
-            <div class="adventure-image">
-                <img src="assets/images/adventure2/header-adventure2.webp" class="geo-header-image" alt="A photo of the geocaching location in Solingen">
-            </div>
-
-            <!-- Adventure buttons and content -->
-
-            <div class="adventure-content">
-
-                <!-- Button 1 -->
-
-                <div data-adventure="2" data-button="1" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 1 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                <div class="adventure-dropdown" data-adventure="2" data-button="1">
-                    <div class="adventure-image-container">
-                        <img src="assets/images/adventure2/cache1-1.webp" loading="lazy" class="geo-image" alt="A photo of the hidden acorn cache">
-                        <img src="assets/images/adventure2/cache1-2.webp" loading="lazy" class="geo-image" alt="A photo of the acorn cache">
-                        <img src="assets/images/adventure2/cache1-3.webp" loading="lazy" class="geo-image" alt="A photo of the brush where the cache was hidden">
-                    </div>
-                    <div class="adventure-content-container">
-                        The start of our second adventure in Solingen began with qutie a laugh. When we took a look at the title of the cache, it<br>
-                        said "Scrat's winter supplies". Once we found the geocache, we knew where the name came from. The log was hidden<br>
-                        in a big acorn. We fought our way back through the brush and only got cut by sharp twigs twice!
-                    </div>
-                </div>
-
-                <!-- Button 2 -->
-
-                <div data-adventure="2" data-button="2" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 2 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                <div class="adventure-dropdown" data-adventure="2" data-button="2">
-                    <div class="adventure-image-container">
-                        <img src="assets/images/adventure2/cache2-1.webp" loading="lazy" class="geo-image" alt="A photo of a quiet street">
-                        <img src="assets/images/adventure2/cache2-2.webp" loading="lazy" class="geo-image" alt="A photo of a roundabout with a tree in the middle">
-                        <img src="assets/images/adventure2/cache2-3.webp" loading="lazy" class="geo-image" alt="A photo of the geocache hidden behind a traffic sign">
-                    </div>
-                    <div class="adventure-content-container">
-                        We went into an idyllic part of the city with lots of green around us. Why breath exhaust gases when you can<br>
-                        enjoy a refreshing trip in the nature. Hidden behind a traffic sign, we found a pretty well hidden "petling".<br>
-                        Some of those have magnets attached to them so they can be hidden in the most crazy places.<br>
-                        This one was wrapped in grey tape. Probably to protect it from rain and other influences.
-                    </div>
-                </div>
-
-                <!-- Button 3 -->
-
-                <div data-adventure="2" data-button="3" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 3 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                <div class="adventure-dropdown" data-adventure="2" data-button="3">
-                    <div class="adventure-image-container">
-                        <img src="assets/images/adventure2/cache3-1.webp" loading="lazy" class="geo-image" alt="A photo of the traffic sign where another cache was hidden">
-                        <img src="assets/images/adventure2/cache3-2.webp" loading="lazy" class="geo-image" alt="A photo of the roundabout where the sign is located">
-                    </div>
-                    <div class="adventure-content-container">
-                        We started to recognize a pattern, as the next cache was also hidden behind a walkway traffice sign.<br>
-                        In some cases, people hide many geocaches in one area of the town and even place them in similar places<br>
-                        or adjust the container of the caches to be identical. As we already knew what awaited us, this geocache<br>
-                        was found pretty quickly and added to our logs.
-                    </div>
-                </div>
-
-                <!-- Button 4-->
-
-                <div data-adventure="2" data-button="4" class="adventure-dropdown-buttons" onclick="openDropdown(this)"><h3>Geocache 4 <i class="fa-solid fa-caret-down"></i></h3></div>
-
-                <div class="adventure-dropdown" data-adventure="2" data-button="4">
-                    <div class="adventure-image-container">
-                        <img src="assets/images/adventure2/cache4-1.webp" loading="lazy" class="geo-image" alt="A photo of a wooden bridge">
-                        <img src="assets/images/adventure2/cache4-2.webp" loading="lazy" class="geo-image" alt="A photo of a street viewed from the wooden bridge">
-                        <img src="assets/images/adventure2/cache4-3.webp" loading="lazy" class="geo-image" alt="A photo of the houses in the area">
-                    </div>
-                    <div class="adventure-content-container">
-                        The last cache on this tour was sadly a missed one. It was said to be hidden under a wooden bridge connecting to streets,<br>
-                        but sadly it seemingly was stolen or damaged. In cases like that, the owner of the cache needs to be informed to take<br>
-                        a look at the spot where they hid it. We still were able to enjoy the cozy area with beautiful houses all around.
-                    </div>
-                </div>
-
-            </div>
-
-       </div>
-
-           <!-- Adventure 2 End -->
-
-        </section>
-
-    </main>
-
-    <!-- Main Area End -->
-
-    <!-- Footer Start -->
-
-    <footer>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Link to LinkedIn (Opens in new tab)"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Link to Facebook (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="Link to X (Opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Link to Instagram (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.pinterest.com/" target="_blank" rel="noopener" aria-label="Link to Pinterest (Opens in new tab)"><i class="fa-brands fa-pinterest"></i></a>
-    </footer>
-    
-    <!-- Footer End -->
-
-    <!-- Fontawesome Import -->
-
-    <script src="https://kit.fontawesome.com/b267705d2e.js" crossorigin="anonymous" defer></script>
-
-    <!-- JavaScript file Import -->
-
-    <script src="assets/js/scripts.js" defer></script>
-
-</body>
+    </body>
 
 </html>
