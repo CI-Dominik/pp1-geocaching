@@ -7,13 +7,13 @@ const navMenu = document.querySelector("#mobile-nav");
 
 dropdownIcon.addEventListener("click", () => {
     navMenu.classList.toggle("nav-active");
-})
+});
 
 // Remove navigation menu once the window is resized
 
 addEventListener("resize", () => {
     navMenu.classList.remove("nav-active");
-})
+});
 
 // Adventure dropdown menu
 
