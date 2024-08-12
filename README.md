@@ -250,7 +250,6 @@ A form to insert some personal data is presented to each visitor.
   * Email address is a required email input to get in touch with the user
   * The personal message is a required textarea for submitting a message
   * The send button is used to send the data to contact-success.html
-    * The success page will direct the user back to the frontpage after five seconds
 
 <br>
 
