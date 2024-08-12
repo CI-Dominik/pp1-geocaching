@@ -94,6 +94,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
 [**VALIDATOR TESTING**](#validator-testing)
   * [HTML validator](#html-validator)
   * [CSS validator](#css-validator)
+  * [JavaScript validator](#javascript-validator)
     
 <br>
 
@@ -496,6 +497,11 @@ Lastly, the colours of the homepage were chosen to ensure enough contrast for vi
 <br>
 
 ![Screenshot of the CSS validation](docs/css-validation.jpg)
+
+### JavaScript validator
+* The scripts.js file was checked for correct use of the programming language. One alert mentioning that openDropdown() is unsused was returned, but this is because that function gets called in my HTML document.
+
+![Screenshot of the JavaScript validation](docs/javascript-validation.jpg)
 
 ---
 
