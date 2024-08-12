@@ -115,6 +115,7 @@ The live page can be viewed here: [Link to Geocaching Adventures](https://ci-dom
   * [YouTube](#youtube)
   * [Pixabay](#pixabay)
   * [Pexels](#pexels)
+  * [Visual Studio Code](#visual-studio-code-1)
 
 ## **USER EXPERIENCE**
 
@@ -591,3 +592,6 @@ After the deployment, a link to the deployed page can be found on the frontpage 
 ### [Pexels](https://www.pexels.com/)
 * [Hat photo](https://www.pexels.com/de-de/foto/stadt-mann-gebaude-muster-27065154/) (Masud Allahverdizade @ Pexels)
 * [Dog photo](https://pixabay.com/de/photos/hund-haustier-tier-niedlich-1839808/) (Pexels @ Pixabay)
+
+### Visual Studio Code
+* Used to generate HTML boilerplate code.
