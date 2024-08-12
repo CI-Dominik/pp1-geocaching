@@ -566,6 +566,15 @@ After the deployment, a link to the deployed page can be found on the frontpage 
 ### [Techsini](https://techsini.com/multi-mockup/index.php)
 * Used to create the mockup in the readme file.
 
+### [HTML validator](https://validator.w3.org/)
+* Used to verify HTML code.
+
+### [CSS validator](https://jigsaw.w3.org/css-validator/)
+* Used to verify CSS code.
+
+### [JavaScript validator](https://jshint.com/)
+* Used to verify JavaScript code.
+
 ### [Favicon Generator](https://realfavicongenerator.net/)
 * Used to generate favicons for the homepage.
 
